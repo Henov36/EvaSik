@@ -2139,4 +2139,4 @@ background-color: transparent;
 			font-size: 18px;
 		}
 	}
-`;i18n_default.changeLanguage(localStorage.getItem(`locale`)||`ua`),(0,import_client.createRoot)(document.getElementById(`root`)).render((0,import_jsx_runtime.jsx)(import_react.StrictMode,{children:(0,import_jsx_runtime.jsx)(BrowserRouter,{children:(0,import_jsx_runtime.jsx)(I18nextProvider,{i18n:i18n_default,children:(0,import_jsx_runtime.jsxs)(Provider_default,{store,children:[(0,import_jsx_runtime.jsx)(GlobalStyles,{}),(0,import_jsx_runtime.jsx)(App,{})]})})})}));
+`;i18n_default.changeLanguage(localStorage.getItem(`locale`)||`ua`),(0,import_client.createRoot)(document.getElementById(`root`)).render((0,import_jsx_runtime.jsx)(import_react.StrictMode,{children:(0,import_jsx_runtime.jsx)(BrowserRouter,{basename:`/EvaSik`,children:(0,import_jsx_runtime.jsx)(I18nextProvider,{i18n:i18n_default,children:(0,import_jsx_runtime.jsxs)(Provider_default,{store,children:[(0,import_jsx_runtime.jsx)(GlobalStyles,{}),(0,import_jsx_runtime.jsx)(App,{})]})})})}));
