@@ -1,4 +1,4 @@
-import{l as e,r as t,u as n}from"./granat-BAAw5UWT.js";var r=t(),i=({messages:e,logo:t,repeat:n=4})=>(0,r.jsx)(`div`,{className:`marquee-content`,children:Array.from({length:n}).map((n,i)=>(0,r.jsx)(`div`,{children:e.map(e=>(0,r.jsxs)(`span`,{children:[e,(0,r.jsx)(`img`,{src:t,alt:``})]},e))},i))}),a=()=>{let{t:e}=n();return{quality:e(`marquee.quality`,{returnObjects:!0}),motivation:e(`marquee.motivation`,{returnObjects:!0})}},o=e.section`
+import{c as e,l as t,n}from"./granat-B5ukxLOX.js";var r=n(),i=({messages:e,logo:t,repeat:n=4})=>(0,r.jsx)(`div`,{className:`marquee-content`,children:Array.from({length:n}).map((n,i)=>(0,r.jsx)(`div`,{children:e.map(e=>(0,r.jsxs)(`span`,{children:[e,(0,r.jsx)(`img`,{src:t,alt:``})]},e))},i))}),a=()=>{let{t:e}=t();return{quality:e(`marquee.quality`,{returnObjects:!0}),motivation:e(`marquee.motivation`,{returnObjects:!0})}},o=e.section`
 	background-image:
 		linear-gradient(
 			270deg,
