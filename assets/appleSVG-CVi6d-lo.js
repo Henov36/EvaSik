@@ -1,0 +1,1 @@
+var e=`/EvaSik/assets/appleSVG-BgmI9xA1.svg`;export{e as t};

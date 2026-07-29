@@ -1,0 +1,1 @@
+var e=`/EvaSik/assets/Logo-Cz59AkB8.svg`;export{e as t};
