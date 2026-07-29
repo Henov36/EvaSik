@@ -87,18 +87,19 @@ import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{c as t,l as n,n as r,p
 	align-items: center;
 	justify-content: center;
 	/* transform: translateX(-20%); */
-img{
-	/* width: 100%; */
-	height: 350px;
-}
+	img {
+		/* width: 100%; */
+		height: 350px;
+	}
 
 	@media (max-width: 900px) {
 		width: 100%;
 		transform: none;
 
 		img {
+			padding-top: 50px;
 			max-width: auto;
-			width: 150px;
+			height: 300px;
 		}
 	}
 `,M=t.div`

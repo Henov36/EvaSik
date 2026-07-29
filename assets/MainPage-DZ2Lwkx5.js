@@ -1,4 +1,4 @@
-import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{a as t,c as n,l as r,n as i,p as a,r as o,s}from"./granat-B5ukxLOX.js";import{c as ee,h as c,l,t as u,u as te,v as d}from"./products-CS5PWylH.js";import{n as f,r as p,t as m}from"./src-DNFmLrdn.js";import{t as h}from"./Logo-B322fVD0.js";import{n as g,r as _,t as v}from"./TitleSpan-CosHx3_P.js";import{a as y,i as b,n as x,t as S}from"./Slider-B-ZRhGRR.js";import{t as C}from"./appleSVG-ChBF8fwl.js";var w=`/EvaSik/assets/HeroImg-CAe3V6hQ.png`,T=e(a(),1),E=`/EvaSik/assets/fructs-tUTpgirq.webp`,D=`/EvaSik/assets/g11-DqlXnQ_K.webp`,O=`/EvaSik/assets/sadAdaptive-D4U22abk.jpg`,k=t`
+import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{a as t,c as n,l as r,n as i,p as a,r as o,s}from"./granat-B5ukxLOX.js";import{c as ee,h as c,l,t as u,u as te,v as d}from"./products-CS5PWylH.js";import{n as f,r as p,t as m}from"./src-DNFmLrdn.js";import{t as h}from"./Logo-B322fVD0.js";import{n as g,r as _,t as v}from"./TitleSpan-CosHx3_P.js";import{a as y,i as b,n as x,t as S}from"./Slider-B-ZRhGRR.js";import{t as C}from"./appleSVG-ChBF8fwl.js";var w=`/EvaSik/assets/HeroImg-DaONFO_o.png`,T=e(a(),1),E=`/EvaSik/assets/fructs-tUTpgirq.webp`,D=`/EvaSik/assets/g11-DqlXnQ_K.webp`,O=`/EvaSik/assets/sadAdaptive-B7ZC55WC.webp`,k=t`
   0% {
     transform: scale(1) var(--base-rotate, rotate(0deg));
   }
@@ -228,7 +228,7 @@ import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{a as t,c as n,l as r,n
 	@media (max-width: 900px) {
 		width: 100%;
 		img {
-			width: 100px;
+			width: 200px;
 			margin-top: 50px;
 		}
 	}
