@@ -1,4 +1,4 @@
-import{c as e}from"./granat-B5ukxLOX.js";var t=e.section`
+import{l as e}from"./granat-DKJZ7AX7.js";var t=e.section`
 	background-image:
 		linear-gradient(
 			270deg,
