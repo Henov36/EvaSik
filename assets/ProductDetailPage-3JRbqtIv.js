@@ -26,7 +26,6 @@ import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{i as t,l as n,m as r,r
 	padding: 50px 0px;
 	position: relative;
 	z-index: 100;
-	
 
 	h1 {
 		text-align: left;
@@ -79,6 +78,13 @@ import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{i as t,l as n,m as r,r
 		}
 		ul h5 {
 			font-size: 22px;
+		}
+		ul {
+			li {
+				span {
+					width: 60%;
+				}
+			}
 		}
 	}
 `,j=n.div`
