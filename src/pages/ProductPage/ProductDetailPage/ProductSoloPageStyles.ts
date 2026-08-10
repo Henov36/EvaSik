@@ -34,7 +34,6 @@ export const PruductsSoloContainer = styled.div`
 	padding: 50px 0px;
 	position: relative;
 	z-index: 100;
-	
 
 	h1 {
 		text-align: left;
@@ -88,6 +87,13 @@ export const PruductsSoloContainer = styled.div`
 		ul h5 {
 			font-size: 22px;
 		}
+		ul {
+			li {
+				span {
+					width: 60%;
+				}
+			}
+		}
 	}
 `;
 
@@ -97,14 +103,19 @@ export const ProductImgBlock = styled.div`
 	align-items: center;
 	justify-content: center;
 	/* transform: translateX(-20%); */
+	img {
+		width: 100%;
+		/* height: 500px; */
+	}
 
 	@media (max-width: 900px) {
 		width: 100%;
 		transform: none;
 
 		img {
+			padding-top: 50px;
 			max-width: auto;
-			width: 170px;
+			height: 300px;
 		}
 	}
 `;

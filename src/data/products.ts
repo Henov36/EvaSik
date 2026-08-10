@@ -4,11 +4,11 @@
 // а сама страница товара рендерится одним общим компонентом ProductDetailPage
 // по параметрам роута :category/:slug.
 
-import JuicyAppleGrapes from "../assets/img/products/JuiceInGlass/apple&grapes.webp";
+import JuicyAppleGrapes from "../assets/img/products/JuiceInGlass/appleGrapes.webp";
 import JuicyGranad from "../assets/img/products/JuiceInGlass/granat.webp";
 import JuicyBerryMix from "../assets/img/products/JuiceInGlass/berrymix.webp";
 import JuicyCherry from "../assets/img/products/JuiceInGlass/cherry.webp";
-import JuicyAppleDushes from "../assets/img/products/JuiceInGlass/apple&dushes.webp";
+import JuicyAppleDushes from "../assets/img/products/JuiceInGlass/appleDushes.webp";
 import JuicyAppleStrawberry from "../assets/img/products/JuiceInGlass/strawberry.webp";
 import BoxJuiceApple from "../assets/img/products/JuiceINBox/Apple.webp";
 import BoxJuiceAppleGrapes from "../assets/img/products/JuiceINBox/AppleGrapes.webp";
@@ -65,17 +65,17 @@ export const PRODUCTS__GLASS: Product[] = [
 		category: "glass",
 		slug: "appleGrapes",
 		description:
-			"Класичне поєднання соковитих яблук і стиглого винограду. М'який, збалансований смак без зайвої кислинки — чудово підходить для щоденного вживання.",
+			"Натуральне поєднання солодкого винограду та соковитих яблук. Має м’який, гармонійний смак і приємний фруктовий аромат. Чудово освіжає та смакує як дорослим, так і дітям.",
 		composition: [
-			{ name: "Яблучний сік", percent: "70%" },
-			{ name: "Виноградний сік", percent: "30%" },
+			{ name: "Яблучний сік", percent: "50%" },
+			{ name: "Виноградний сік", percent: "50%" },
 		],
 		titleEn: "Apple & Grape",
 		descriptionEn:
-			"A classic pairing of juicy apples and ripe grapes. A soft, balanced taste without excess acidity — great for everyday drinking.",
+			"A natural blend of sweet grapes and juicy apples. It has a smooth, well-balanced flavor and a pleasant fruity aroma. It’s wonderfully refreshing and appeals to both adults and children.",
 		compositionEn: [
-			{ name: "Apple juice", percent: "70%" },
-			{ name: "Grape juice", percent: "30%" },
+			{ name: "Apple juice", percent: "50%" },
+			{ name: "Grape juice", percent: "50%" },
 		],
 	},
 	{
@@ -87,17 +87,21 @@ export const PRODUCTS__GLASS: Product[] = [
 		category: "glass",
 		slug: "granat",
 		description:
-			"Насичений гранатовий сік із легкою терпкістю та яскравим рубіновим кольором. Джерело природних антиоксидантів у кожній склянці.",
+			"Насичений гранатовий сік із виразним кисло-солодким смаком і приємною терпкістю. Виготовлений із добірних плодів, він чудово освіжає та гармонійно доповнює щоденний раціон. Смакує охолодженим і чудово підходить до сніданку, обіду або святкового столу.",
 		composition: [
-			{ name: "Гранатовий сік", percent: "85%" },
-			{ name: "Яблучний сік", percent: "15%" },
+			{
+				name: "Сік гранатовий відновлений з концентрованого соку",
+				percent: "100%",
+			},
 		],
 		titleEn: "Pomegranate",
 		descriptionEn:
-			"Rich pomegranate juice with a light tartness and a vivid ruby colour. A source of natural antioxidants in every glass.",
+			"A rich pomegranate juice with a distinct sweet-and-sour flavor and a pleasant tartness. Made from carefully selected fruits, it’s wonderfully refreshing and harmoniously complements your daily diet. Best served chilled, it’s perfect for breakfast, lunch, or a festive meal.",
 		compositionEn: [
-			{ name: "Pomegranate juice", percent: "85%" },
-			{ name: "Apple juice", percent: "15%" },
+			{
+				name: "Pomegranate juice reconstituted from concentrated juice",
+				percent: "100%",
+			},
 		],
 	},
 	{
@@ -109,19 +113,53 @@ export const PRODUCTS__GLASS: Product[] = [
 		category: "glass",
 		slug: "berryMix",
 		description:
-			"Асорті з яблука, полуниці та вишні — соковитий ягідний букет з ніжною кислинкою. Смак літа у будь-яку пору року.",
+			"Насичене поєднання добірних ягід із яскравим кисло-солодким смаком і приємним ароматом. Чудово освіжає та дарує справжнє ягідне задоволення в кожному ковтку.",
 		composition: [
-			{ name: "Яблучний сік", percent: "55%" },
-			{ name: "Полуничний сік", percent: "25%" },
-			{ name: "Вишневий сік", percent: "20%" },
+			{
+				name: "Сік ожиновий  відновлений з концентрованого соку ",
+				percent: "25%",
+			},
+			{
+				name: "Сік чорничний  відновлений з концентрованого соку ",
+				percent: "25%",
+			},
+			{
+				name: "Сік полуничний  відновлений з концентрованого соку ",
+				percent: "25%",
+			},
+			{
+				name: "Сік брусничний  відновлений з концентрованого соку ",
+				percent: "20%",
+			},
+			{
+				name: "Сік яблучний",
+				percent: "5%",
+			},
 		],
 		titleEn: "Berry Mix",
 		descriptionEn:
-			"A blend of apple, strawberry and cherry — a juicy berry bouquet with a gentle tartness. The taste of summer any time of year.",
+			"A rich blend of hand-picked berries with a vibrant sweet-and-sour flavor and a pleasant aroma. It’s wonderfully refreshing and offers a true berry delight with every sip.",
 		compositionEn: [
-			{ name: "Apple juice", percent: "55%" },
-			{ name: "Strawberry juice", percent: "25%" },
-			{ name: "Cherry juice", percent: "20%" },
+			{
+				name: "Blackberry juice  reconstituted from concentrated juice",
+				percent: "25%",
+			},
+			{
+				name: "Blueberry juice  reconstituted from concentrated juice",
+				percent: "25%",
+			},
+			{
+				name: "Strawberry juice  reconstituted from concentrated juice",
+				percent: "25%",
+			},
+			{
+				name: "Lingonberry juice  reconstituted from concentrated juice",
+				percent: "20%",
+			},
+			{
+				name: "Apple juice",
+				percent: "5%",
+			},
 		],
 	},
 	{
@@ -133,17 +171,21 @@ export const PRODUCTS__GLASS: Product[] = [
 		category: "glass",
 		slug: "cherry",
 		description:
-			"Насичений вишневий сік з приємною кислинкою та глибоким бордовим кольором. Улюблений класичний смак для всієї родини.",
+			"Насичений вишневий сік із яскравим кисло-солодким смаком і приємним ароматом стиглих ягід. Чудово освіжає, смакує охолодженим і гармонійно доповнює щоденний раціон.",
 		composition: [
-			{ name: "Вишневий сік", percent: "90%" },
-			{ name: "Яблучний сік", percent: "10%" },
+			{
+				name: "Cік вишневий відновлений з концентрованого соку ",
+				percent: "100%",
+			},
 		],
 		titleEn: "Cherry",
 		descriptionEn:
-			"Rich cherry juice with a pleasant tartness and a deep burgundy colour. A classic favourite for the whole family.",
+			"A rich cherry juice with a vibrant sweet-and-sour flavor and the pleasant aroma of ripe berries. It’s wonderfully refreshing, best enjoyed chilled, and harmoniously complements your daily diet.",
 		compositionEn: [
-			{ name: "Cherry juice", percent: "90%" },
-			{ name: "Apple juice", percent: "10%" },
+			{
+				name: "Cherry juice reconstituted from concentrated juice",
+				percent: "100%",
+			},
 		],
 	},
 	{
@@ -155,17 +197,29 @@ export const PRODUCTS__GLASS: Product[] = [
 		category: "glass",
 		slug: "appleDushes",
 		description:
-			"Ніжне поєднання яблука та груші — м'який, злегка медовий смак без зайвої терпкості. Один із найделікатніших смаків у лінійці.",
+			"Ніжне поєднання соковитих яблук і стиглих груш. Має м’який, солодкий смак і приємний фруктовий аромат. Чудово освіжає та смакує як дорослим, так і дітям.",
 		composition: [
-			{ name: "Яблучний сік", percent: "60%" },
-			{ name: "Грушевий сік", percent: "40%" },
+			{
+				name: "Cік яблучний  відновлений з концентрованого соку",
+				percent: "50%",
+			},
+			{
+				name: "Cік  грушевий відновлений з концентрованого соку",
+				percent: "50%",
+			},
 		],
 		titleEn: "Apple & Pear",
 		descriptionEn:
-			"A gentle pairing of apple and pear — a soft, slightly honeyed taste without excess tartness. One of the most delicate flavours in the line.",
+			"A delicate blend of juicy apples and ripe pears. It has a mild, sweet taste and a pleasant fruity aroma. It’s wonderfully refreshing and appeals to both adults and children.",
 		compositionEn: [
-			{ name: "Apple juice", percent: "60%" },
-			{ name: "Pear juice", percent: "40%" },
+			{
+				name: "Apple juice reconstituted from juice concentrate",
+				percent: "50%",
+			},
+			{
+				name: "Pear juice reconstituted from juice concentrate",
+				percent: "50%",
+			},
 		],
 	},
 	{
@@ -177,17 +231,29 @@ export const PRODUCTS__GLASS: Product[] = [
 		category: "glass",
 		slug: "appleStrawberry",
 		description:
-			"Свіжий яблучний сік з додаванням соковитої полуниці — легкий, ароматний та трохи солодкий смак, який подобається дітям і дорослим.",
+			"Ніжне поєднання соковитих яблук і стиглої полуниці. Має приємний солодкий смак, яскравий ягідний аромат і чудово смакує як дорослим, так і дітям.",
 		composition: [
-			{ name: "Яблучний сік", percent: "65%" },
-			{ name: "Полуничний сік", percent: "35%" },
+			{
+				name: "Сік яблучний  відновлений з концентрованого соку  ",
+				percent: "50%",
+			},
+			{
+				name: "Сік  полуничний відновлений з концентрованого соку ",
+				percent: "50%",
+			},
 		],
 		titleEn: "Apple & Strawberry",
 		descriptionEn:
-			"Fresh apple juice with juicy strawberry added — a light, fragrant, slightly sweet taste loved by kids and adults alike.",
+			"A delicate blend of juicy apples and ripe strawberries. It has a pleasant sweet taste, a vibrant berry aroma, and is a favorite among both adults and children.",
 		compositionEn: [
-			{ name: "Apple juice", percent: "65%" },
-			{ name: "Strawberry juice", percent: "35%" },
+			{
+				name: "Apple juice reconstituted from concentrated juice",
+				percent: "50%",
+			},
+			{
+				name: "Strawberry juice reconstituted from concentrated juice",
+				percent: "501%",
+			},
 		],
 	},
 ];
@@ -202,12 +268,18 @@ export const PRODUCTS__BOX: Product[] = [
 		category: "box",
 		slug: "apple",
 		description:
-			"Класичний яблучний сік з м'якоттю — густий, насичений та максимально наближений до смаку свіжовичавленого яблука. Оптимальний вибір для всієї родини у зручному сімейному форматі.",
-		composition: [{ name: "Яблучний сік з м'якоттю", percent: "100%" }],
+			"Соковитий яблучний смак із ніжною м’якоттю, приємною солодкістю та свіжим фруктовим ароматом. Смачний напій для всієї родини.",
+		composition: [
+			{ name: "Cік яблучний", percent: "60%" },
+			{ name: "Пюре яблучне", percent: "40%" },
+		],
 		titleEn: "Apple (with pulp)",
 		descriptionEn:
-			"Classic apple juice with pulp — thick, rich and as close as possible to freshly squeezed apple. The optimal choice for the whole family in a convenient family format.",
-		compositionEn: [{ name: "Apple juice with pulp", percent: "100%" }],
+			"A juicy apple flavor with a tender texture, pleasant sweetness, and a fresh fruity aroma. A delicious drink for the whole family.",
+		compositionEn: [
+			{ name: "Apple juice", percent: "60%" },
+			{ name: "Apple puree", percent: "40%" },
+		],
 	},
 	{
 		id: 7,
@@ -218,21 +290,23 @@ export const PRODUCTS__BOX: Product[] = [
 		category: "box",
 		slug: "multyfruct",
 		description:
-			"Багатий мікс з яблука, апельсина, винограду та персика. Яскравий фруктовий смак з м'якоттю, що дарує відчуття справжнього соку.",
+			"Соковитий мультифруктовий смак із ніжною м’якоттю, тропічним ароматом і приємною солодкістю. Яскраве поєднання фруктів для всієї родини.",
 		composition: [
-			{ name: "Яблучний сік", percent: "40%" },
-			{ name: "Апельсиновий сік", percent: "25%" },
-			{ name: "Виноградний сік", percent: "20%" },
-			{ name: "Персиковий сік", percent: "15%" },
+			{
+				name: "Апельсиновий сік, бананове пюре, ананасовий сік, сік маракуйї, лимонний сік",
+				percent: "83%",
+			},
+			{ name: "Яблучний сік", percent: "17%" },
 		],
 		titleEn: "Multifruit (with pulp)",
 		descriptionEn:
-			"A rich mix of apple, orange, grape and peach. A vivid fruity taste with pulp that gives the feel of real juice.",
+			"A juicy, multi-fruit flavor with tender pulp, a tropical aroma, and a pleasant sweetness. A vibrant blend of fruits for the whole family.",
 		compositionEn: [
-			{ name: "Apple juice", percent: "40%" },
-			{ name: "Orange juice", percent: "25%" },
-			{ name: "Grape juice", percent: "20%" },
-			{ name: "Peach juice", percent: "15%" },
+			{
+				name: "Orange juice, mashed banana, pineapple juice, passion fruit juice, lemon juice",
+				percent: "83%",
+			},
+			{ name: "Apple juice", percent: "17%" },
 		],
 	},
 	{
@@ -244,17 +318,17 @@ export const PRODUCTS__BOX: Product[] = [
 		category: "box",
 		slug: "cherry",
 		description:
-			"Поєднання стиглої вишні та чорної смородини — насичений кисло-солодкий смак з приємною терпкістю. Багатий на вітамін С.",
+			"Насичений вишнево-смородиновий смак із приємною кислинкою, яскравим ягідним ароматом і глибоким кольором. Гармонійне поєднання соковитої вишні та чорної смородини.",
 		composition: [
-			{ name: "Вишневий сік", percent: "55%" },
-			{ name: "Чорносмородиновий сік", percent: "45%" },
+			{ name: "Вишневий сік", percent: "70%" },
+			{ name: "Чорно-смородиновий сік", percent: "30%" },
 		],
 		titleEn: "Cherry & Black Currant",
 		descriptionEn:
-			"A pairing of ripe cherry and black currant — a rich sweet-and-sour taste with a pleasant tartness. Rich in vitamin C.",
+			"A rich cherry-currant flavor with a pleasant tartness, a vibrant berry aroma, and a deep color. A harmonious blend of juicy cherries and black currants.",
 		compositionEn: [
-			{ name: "Cherry juice", percent: "55%" },
-			{ name: "Black currant juice", percent: "45%" },
+			{ name: "Cherry juice", percent: "70%" },
+			{ name: "Black currant juice", percent: "30%" },
 		],
 	},
 	{
@@ -266,11 +340,11 @@ export const PRODUCTS__BOX: Product[] = [
 		category: "box",
 		slug: "orange",
 		description:
-			"Соковитий апельсиновий сік з м'якоттю — яскравий цитрусовий смак і природна свіжість в кожному ковтку.",
+			"Соковитий апельсиновий смак із ніжною м’якоттю, приємною кислинкою та яскравим цитрусовим ароматом. Смачний і освіжаючий напій для всієї родини.",
 		composition: [{ name: "Апельсиновий сік з м'якоттю", percent: "100%" }],
 		titleEn: "Orange (with pulp)",
 		descriptionEn:
-			"Juicy orange juice with pulp — a vivid citrus taste and natural freshness in every sip.",
+			"A juicy orange flavor with tender pulp, a pleasant tartness, and a vibrant citrus aroma. A delicious and refreshing drink for the whole family.",
 		compositionEn: [{ name: "Orange juice with pulp", percent: "100%" }],
 	},
 	{
@@ -282,17 +356,17 @@ export const PRODUCTS__BOX: Product[] = [
 		category: "box",
 		slug: "appleGrapes",
 		description:
-			"Солодкий виноградний сік, доповнений яблучними нотками. М'який та освіжаючий смак без зайвої кислинки.",
+			"Насичений виноградно-яблучний смак із приємною солодкістю, легкою свіжістю та ніжним фруктовим ароматом. Гармонійне поєднання соковитого винограду й стиглих яблук.",
 		composition: [
-			{ name: "Виноградний сік", percent: "55%" },
-			{ name: "Яблучний сік", percent: "45%" },
+			{ name: "Яблучний сік", percent: "50%" },
+			{ name: "Виноградний сік", percent: "50%" },
 		],
 		titleEn: "Grape & Apple",
 		descriptionEn:
-			"Sweet grape juice rounded out with apple notes. A soft, refreshing taste without excess acidity.",
+			"A rich grape-and-apple flavor with a pleasant sweetness, a light freshness, and a delicate fruity aroma. A harmonious blend of juicy grapes and ripe apples.",
 		compositionEn: [
-			{ name: "Grape juice", percent: "55%" },
-			{ name: "Apple juice", percent: "45%" },
+			{ name: "Apple juice", percent: "50%" },
+			{ name: "Grape juice", percent: "50%" },
 		],
 	},
 	{
@@ -304,19 +378,17 @@ export const PRODUCTS__BOX: Product[] = [
 		category: "box",
 		slug: "mango",
 		description:
-			"Тропічне поєднання манго та персика з м'якоттю — солодкий, ароматний смак з легкими нотками екзотики.",
+			"Ніжний мангово-персиковий смак із м’якоттю, приємною солодкістю та яскравим тропічним ароматом. Соковите поєднання фруктів для всієї родини",
 		composition: [
-			{ name: "Персиковий сік", percent: "55%" },
-			{ name: "Манговий сік", percent: "35%" },
-			{ name: "Яблучний сік", percent: "10%" },
+			{ name: "Персиковий сік", percent: "50%" },
+			{ name: "Пюре манго", percent: "50%" },
 		],
 		titleEn: "Mango & Peach (with pulp)",
 		descriptionEn:
-			"A tropical pairing of mango and peach with pulp — a sweet, fragrant taste with light exotic notes.",
+			"A delicate mango-peach flavor with a fruity texture, pleasant sweetness, and a vibrant tropical aroma. A juicy blend of fruits for the whole family.",
 		compositionEn: [
-			{ name: "Peach juice", percent: "55%" },
-			{ name: "Mango juice", percent: "35%" },
-			{ name: "Apple juice", percent: "10%" },
+			{ name: "Peach Juice", percent: "50%" },
+			{ name: "Mango Puree", percent: "50%" },
 		],
 	},
 	{
@@ -328,19 +400,19 @@ export const PRODUCTS__BOX: Product[] = [
 		category: "box",
 		slug: "tomat",
 		description:
-			"Насичений томатний сік з морквою, легкою ноткою солі та натуральних прянощів. Смачна та корисна альтернатива для тих, хто цінує овочеві соки.",
+			"Насичений томатно-морквяний смак із ніжною м’якоттю та легкою солоною ноткою. Смачне й поживне поєднання овочів для всієї родини.",
 		composition: [
-			{ name: "Томатний сік з м'якоттю", percent: "85%" },
-			{ name: "Морквяний сік", percent: "10%" },
-			{ name: "Сіль та прянощі", percent: "5%" },
+			{ name: "Томатний сік", percent: "50%" },
+			{ name: "Морквяне пюре", percent: "49.99%" },
+			{ name: "Сіль куханна", percent: "0.01%" },
 		],
 		titleEn: "Tomato & Carrot (with pulp and salt)",
 		descriptionEn:
-			"Rich tomato juice with carrot, a light hint of salt and natural spices. A tasty and wholesome alternative for those who love vegetable juices.",
+			"A rich tomato-carrot flavor with tender pulp and a subtle hint of salt. A delicious and nutritious blend of vegetables for the whole family.",
 		compositionEn: [
-			{ name: "Tomato juice with pulp", percent: "85%" },
-			{ name: "Carrot juice", percent: "10%" },
-			{ name: "Salt and spices", percent: "5%" },
+			{ name: "Tomato juice", percent: "50%" },
+			{ name: "Carrot puree", percent: "49.99%" },
+			{ name: "Table salt", percent: "0.01%" },
 		],
 	},
 ];
@@ -355,19 +427,21 @@ export const PRODUCTS__TEA: Product[] = [
 		category: "tea",
 		slug: "cherry",
 		description:
-			"Ароматний чай на основі чорного чаю з насиченим вишневим смаком. Чудово підходить як гарячим, так і охолодженим.",
+			"Ароматний фруктово-ягідний концентрований чай із насиченим смаком лісових ягід. Має яскравий ягідний аромат, приємну природну кислинку та гармонійний, глибокий смак. Чудово смакує як гарячим, так і охолодженим.",
 		composition: [
-			{ name: "Вишневий екстракт", percent: "15%" },
-			{ name: "Чорний чай", percent: "5%" },
-			{ name: "Вода", percent: "80%" },
+			{ name: "Вишня свіжа, швидкозаморожена", percent: "40%" },
+			{ name: "Сироп вишневий  натуральний", percent: "50%" },
+			{ name: "Чайний екстракт", percent: "5%" },
+			{ name: "Мед натуральний", percent: "5%" },
 		],
 		titleEn: "Cherry Tea",
 		descriptionEn:
-			"An aromatic black-tea blend with a rich cherry flavour. Great served either hot or chilled.",
+			"A fragrant, concentrated fruit-and-berry tea with the rich flavor of wild berries. It has a vibrant berry aroma, a pleasant natural tartness, and a harmonious, deep flavor. It tastes great both hot and chilled.",
 		compositionEn: [
-			{ name: "Cherry extract", percent: "15%" },
-			{ name: "Black tea", percent: "5%" },
-			{ name: "Water", percent: "80%" },
+			{ name: "Fresh, flash-frozen cherries", percent: "40%" },
+			{ name: "Cherry syrup", percent: "50%" },
+			{ name: "Tea extract", percent: "5%" },
+			{ name: "Natural honey", percent: "5%" },
 		],
 	},
 	{
@@ -379,45 +453,43 @@ export const PRODUCTS__TEA: Product[] = [
 		category: "tea",
 		slug: "granat",
 		description:
-			"Чай з яскравим гранатовим акцентом — терпкий, бадьорий смак з легкою кислинкою.",
+			"Ароматний фруктово-ягідний концентрований чай із насиченим смаком граната. Має виразний фруктовий аромат, приємну кислинку та гармонійний, насичений смак. Чудово смакує як гарячим, так і охолодженим.",
 		composition: [
-			{ name: "Гранатовий екстракт", percent: "15%" },
-			{ name: "Чорний чай", percent: "5%" },
-			{ name: "Вода", percent: "80%" },
+			{ name: "Cироп гранатовий натуральний", percent: "95%" },
+			{ name: "Чайний екстракт", percent: "5%" },
 		],
 		titleEn: "Pomegranate Tea",
 		descriptionEn:
-			"Tea with a vivid pomegranate accent — a tart, invigorating taste with a light acidity.",
+			"A fragrant, concentrated fruit-and-berry tea with a rich pomegranate flavor. It has a distinct fruity aroma, a pleasant tartness, and a harmonious, rich flavor. It tastes great both hot and chilled.",
 		compositionEn: [
-			{ name: "Pomegranate extract", percent: "15%" },
-			{ name: "Black tea", percent: "5%" },
-			{ name: "Water", percent: "80%" },
+			{ name: "Natural Pomegranate Syrup", percent: "95%" },
+			{ name: "Tea Extract", percent: "5%" },
 		],
 	},
 	{
 		id: 15,
-		title: "Чорниця, полуниця",
+		title: "Горобина, полуниця",
 		img: TeaChornika,
 		link: "/products/tea/strawberryChornika",
 		color: "#d6e2b3",
 		category: "tea",
 		slug: "strawberryChornika",
 		description:
-			"Ніжне поєднання чорниці та полуниці на основі зеленого чаю — легкий ягідний смак з делікатною солодкістю.",
+			"Ароматний фруктово-ягідний концентрований чай із гармонійним поєднанням чорноплідної горобини та стиглої полуниці. Має насичений ягідний аромат, легку терпкість, приємну солодкість і збалансований смак. Чудово смакує як гарячим, так і охолодженим.",
 		composition: [
-			{ name: "Чорничний екстракт", percent: "10%" },
-			{ name: "Полуничний екстракт", percent: "10%" },
-			{ name: "Зелений чай", percent: "5%" },
-			{ name: "Вода", percent: "75%" },
+			{ name: "Полуниця свіжа швидкозаморожена", percent: "40%" },
+			{ name: "Сироп чорноплідної горобини натуральний", percent: "30%" },
+			{ name: "Сироп полуничний натуральний", percent: "25%" },
+			{ name: "Чайний екстракт", percent: "5%" },
 		],
-		titleEn: "Blueberry & Strawberry",
+		titleEn: "Rowanberries, strawberries",
 		descriptionEn:
-			"A gentle pairing of blueberry and strawberry on a green-tea base — a light berry taste with delicate sweetness.",
+			"A fragrant, concentrated fruit-and-berry tea featuring a harmonious blend of black chokeberry and ripe strawberries. It has a rich berry aroma, a slight tartness, a pleasant sweetness, and a well-balanced flavor. It tastes great both hot and chilled.",
 		compositionEn: [
-			{ name: "Blueberry extract", percent: "10%" },
-			{ name: "Strawberry extract", percent: "10%" },
-			{ name: "Green tea", percent: "5%" },
-			{ name: "Water", percent: "75%" },
+			{ name: "Fresh Quick-Frozen Strawberries", percent: "40%" },
+			{ name: "Natural Black Chokeberry Syrup", percent: "30%" },
+			{ name: "Natural Strawberry Syrup", percent: "25%" },
+			{ name: "Tea extract", percent: "5%" },
 		],
 	},
 	{
@@ -429,21 +501,23 @@ export const PRODUCTS__TEA: Product[] = [
 		category: "tea",
 		slug: "chornikaSmorodina",
 		description:
-			"Насичений чай з чорницею та чорною смородиною — глибокий ягідний смак з приємною терпкістю.",
+			"Ароматний фруктово-ягідний концентрований чай із гармонійним поєднанням чорниці та чорної смородини. Має насичений ягідний аромат, приємну кислинку та збалансований смак. Чудово смакує як гарячим, так і охолодженим.",
 		composition: [
-			{ name: "Чорничний екстракт", percent: "10%" },
-			{ name: "Смородиновий екстракт", percent: "10%" },
-			{ name: "Чорний чай", percent: "5%" },
-			{ name: "Вода", percent: "75%" },
+			{ name: "Чорниця свіжа, швидкозаморожена ", percent: "20%" },
+			{ name: "Смородина чорна  свіжа, швидкозаморожена", percent: "20%" },
+			{ name: "Сироп чорничний натуральний", percent: "30%" },
+			{ name: "Сироп смородиновий натуральний", percent: "25%" },
+			{ name: "Чайний екстракт", percent: "5%" },
 		],
 		titleEn: "Blueberry & Black Currant",
 		descriptionEn:
-			"A rich tea with blueberry and black currant — a deep berry taste with a pleasant tartness.",
+			"A fragrant, concentrated fruit-and-berry tea featuring a harmonious blend of blueberries and black currants. It has a rich berry aroma, a pleasant tartness, and a well-balanced flavor. It tastes great both hot and chilled.",
 		compositionEn: [
-			{ name: "Blueberry extract", percent: "10%" },
-			{ name: "Black currant extract", percent: "10%" },
-			{ name: "Black tea", percent: "5%" },
-			{ name: "Water", percent: "75%" },
+			{ name: "Fresh blueberries, flash-frozen", percent: "20%" },
+			{ name: "Fresh black currants, flash-frozen", percent: "20%" },
+			{ name: "Natural blueberry syrup", percent: "30%" },
+			{ name: "Natural currant syrup", percent: "25%" },
+			{ name: "Tea extract", percent: "5%" },
 		],
 	},
 	{
@@ -455,19 +529,21 @@ export const PRODUCTS__TEA: Product[] = [
 		category: "tea",
 		slug: "juravlina",
 		description:
-			"Бадьорий чай з журавлиною — яскрава кислинка та освіжаючий смак, ідеальний для холодної пори року.",
+			"Ароматний фруктово-ягідний концентрований чай із насиченим смаком журавлини. Має яскравий ягідний аромат, приємну кислинку та гармонійний смак. Чудово смакує як гарячим, так і охолодженим.",
 		composition: [
-			{ name: "Журавлинний екстракт", percent: "15%" },
-			{ name: "Чорний чай", percent: "5%" },
-			{ name: "Вода", percent: "80%" },
+			{ name: "Журавлина свіжа, швидкозаморожена", percent: "40%" },
+			{ name: "Сироп журавлинний натуральний", percent: "50%" },
+			{ name: "Чайний екстракт", percent: "5%" },
+			{ name: "Мед натуральний", percent: "5%" },
 		],
 		titleEn: "Cranberry Tea",
 		descriptionEn:
-			"An invigorating cranberry tea — a vivid tartness and refreshing taste, ideal for the cold season.",
+			"A fragrant, concentrated fruit-and-berry tea with a rich cranberry flavor. It has a vibrant berry aroma, a pleasant tartness, and a well-balanced flavor. It tastes great both hot and chilled.",
 		compositionEn: [
-			{ name: "Cranberry extract", percent: "15%" },
-			{ name: "Black tea", percent: "5%" },
-			{ name: "Water", percent: "80%" },
+			{ name: "Fresh, Quick-Frozen Cranberries", percent: "40%" },
+			{ name: "Natural Cranberry Syrup", percent: "50%" },
+			{ name: "Tea Extract", percent: "5%" },
+			{ name: "Natural honey", percent: "5%" },
 		],
 	},
 	{
@@ -479,19 +555,21 @@ export const PRODUCTS__TEA: Product[] = [
 		category: "tea",
 		slug: "malina",
 		description:
-			"Ароматний чай з малиновими нотками — теплий, затишний смак з легкою солодкістю.",
+			"Ароматний фруктово-ягідний концентрований чай із насиченим смаком стиглої малини. Має ніжний ягідний аромат, приємну солодкість і гармонійний смак. Чудово смакує як гарячим, так і охолодженим.",
 		composition: [
-			{ name: "Малиновий екстракт", percent: "15%" },
-			{ name: "Чорний чай", percent: "5%" },
-			{ name: "Вода", percent: "80%" },
+			{ name: "Малина свіжа, швидкозаморожена ", percent: "40%" },
+			{ name: "Сироп малиновий натуральний", percent: "50%" },
+			{ name: "Чайний екстракт", percent: "5%" },
+			{ name: "Мед натуральний", percent: "5%" },
 		],
 		titleEn: "Raspberry Tea",
 		descriptionEn:
-			"An aromatic tea with raspberry notes — a warm, cosy taste with a light sweetness.",
+			"A fragrant, concentrated fruit-and-berry tea with the rich flavor of ripe raspberries. It has a delicate berry aroma, a pleasant sweetness, and a well-balanced flavor. It tastes great both hot and chilled.",
 		compositionEn: [
-			{ name: "Raspberry extract", percent: "15%" },
-			{ name: "Black tea", percent: "5%" },
-			{ name: "Water", percent: "80%" },
+			{ name: "Fresh, flash-frozen raspberries ", percent: "40%" },
+			{ name: "Natural raspberry syrup", percent: "50%" },
+			{ name: "Tea extract", percent: "5%" },
+			{ name: "Natural honey", percent: "5%" },
 		],
 	},
 	{
@@ -503,21 +581,21 @@ export const PRODUCTS__TEA: Product[] = [
 		category: "tea",
 		slug: "oblipiha",
 		description:
-			"Поєднання обліпихи та груші на основі зеленого чаю — м'який, трохи медовий смак з корисними властивостями обліпихи.",
+			"Ароматний фруктово-ягідний концентрований чай з гармонійним поєднанням обліпихи та соковитої груші. Має насичений фруктовий аромат, приємну кислинку та м’який, збалансований смак. Чудово смакує як гарячим, так і охолодженим.",
 		composition: [
-			{ name: "Обліпиховий екстракт", percent: "10%" },
-			{ name: "Грушевий екстракт", percent: "10%" },
-			{ name: "Зелений чай", percent: "5%" },
-			{ name: "Вода", percent: "75%" },
+			{ name: "Обліпиха свіжа, швидкозаморожена", percent: "40%" },
+			{ name: "Сироп обліпиховий натуральний", percent: "25%" },
+			{ name: "Сироп грушевий натуральний", percent: "30%" },
+			{ name: "Чайний екстракт", percent: "5%" },
 		],
 		titleEn: "Sea Buckthorn & Pear",
 		descriptionEn:
-			"A pairing of sea buckthorn and pear on a green-tea base — a soft, slightly honeyed taste with the beneficial properties of sea buckthorn.",
+			"A fragrant, concentrated fruit-and-berry tea featuring a harmonious blend of sea buckthorn and juicy pear. It has a rich fruity aroma, a pleasant tartness, and a smooth, balanced flavor. It tastes great both hot and chilled.",
 		compositionEn: [
-			{ name: "Sea buckthorn extract", percent: "10%" },
-			{ name: "Pear extract", percent: "10%" },
-			{ name: "Green tea", percent: "5%" },
-			{ name: "Water", percent: "75%" },
+			{ name: "Fresh, flash-frozen sea buckthorn", percent: "40%" },
+			{ name: "Natural sea buckthorn syrup", percent: "25%" },
+			{ name: "Natural pear syrup", percent: "30%" },
+			{ name: "Tea extract", percent: "5%" },
 		],
 	},
 	{
@@ -529,19 +607,21 @@ export const PRODUCTS__TEA: Product[] = [
 		category: "tea",
 		slug: "ojina",
 		description:
-			"Насичений чай з ожиною — глибокий ягідний смак з делікатною кислинкою.",
+			"Ароматний фруктово-ягідний концентрований чай із насиченим смаком ожини. Має виразний ягідний аромат, приємну кислинку та гармонійний смак. Чудово смакує як гарячим, так і охолодженим.",
 		composition: [
-			{ name: "Ожиновий екстракт", percent: "15%" },
-			{ name: "Чорний чай", percent: "5%" },
-			{ name: "Вода", percent: "80%" },
+			{ name: "Ожина свіжа, швидкозаморожена ", percent: "40%" },
+			{ name: "Сироп ожиновий ", percent: "50%" },
+			{ name: "Чайний екстракт", percent: "5%" },
+			{ name: "Мед натуральний", percent: "5%" },
 		],
 		titleEn: "Blackberry Tea",
 		descriptionEn:
-			"A rich blackberry tea — a deep berry taste with a delicate tartness.",
+			"A fragrant, concentrated fruit-and-berry tea with a rich blackberry flavor. It has a distinct berry aroma, a pleasant tartness, and a well-balanced flavor. It tastes great both hot and chilled.",
 		compositionEn: [
-			{ name: "Blackberry extract", percent: "15%" },
-			{ name: "Black tea", percent: "5%" },
-			{ name: "Water", percent: "80%" },
+			{ name: "Fresh, flash-frozen blackberries", percent: "40%" },
+			{ name: "Natural blackberry syrup", percent: "50%" },
+			{ name: "Tea extract", percent: "5%" },
+			{ name: "Natural honey", percent: "5%" },
 		],
 	},
 	{
@@ -553,19 +633,21 @@ export const PRODUCTS__TEA: Product[] = [
 		category: "tea",
 		slug: "strawberry",
 		description:
-			"Легкий чай з ароматом стиглої полуниці — солодкий, літній смак у будь-яку пору року.",
+			"Ароматний фруктово-ягідний концентрований чай із насиченим смаком стиглої полуниці. Має ніжний ягідний аромат, приємну солодкість і гармонійний смак. Чудово смакує як гарячим, так і охолодженим.",
 		composition: [
-			{ name: "Полуничний екстракт", percent: "15%" },
-			{ name: "Чорний чай", percent: "5%" },
-			{ name: "Вода", percent: "80%" },
+			{ name: "Полуниця свіжа, швидкозаморожена", percent: "40%" },
+			{ name: "Сироп полуничний натуральний", percent: "50%" },
+			{ name: "Чайний екстракт", percent: "5%" },
+			{ name: "Мед натуральний", percent: "5%" },
 		],
 		titleEn: "Strawberry Tea",
 		descriptionEn:
-			"A light tea with the aroma of ripe strawberries — a sweet, summery taste any time of year.",
+			"A fragrant, concentrated fruit-and-berry tea with the rich flavor of ripe strawberries. It has a delicate berry aroma, a pleasant sweetness, and a well-balanced flavor. It tastes great both hot and chilled.",
 		compositionEn: [
-			{ name: "Strawberry extract", percent: "15%" },
-			{ name: "Black tea", percent: "5%" },
-			{ name: "Water", percent: "80%" },
+			{ name: "Fresh, flash-frozen strawberries", percent: "40%" },
+			{ name: "Natural strawberry syrup", percent: "50%" },
+			{ name: "Tea extract", percent: "5%" },
+			{ name: "Natural honey", percent: "5%" },
 		],
 	},
 	{
@@ -577,19 +659,21 @@ export const PRODUCTS__TEA: Product[] = [
 		category: "tea",
 		slug: "smorodina",
 		description:
-			"Класичний чай з чорною смородиною — насичений, трохи терпкий смак з яскравим ягідним ароматом.",
+			"Ароматний фруктово-ягідний концентрований чай із насиченим смаком чорної смородини. Має приємний ягідний аромат, легку кислинку та збалансовану солодкість. Швидко готується, чудово смакує як гарячим, так і охолодженим.",
 		composition: [
-			{ name: "Смородиновий екстракт", percent: "15%" },
-			{ name: "Чорний чай", percent: "5%" },
-			{ name: "Вода", percent: "80%" },
+			{ name: "Смородина чорна свіжа, швидкозаморожена ", percent: "40%" },
+			{ name: "Смородиновий натуральний", percent: "50%" },
+			{ name: "Чайний екстракт", percent: "5%" },
+			{ name: "Мед натуральний", percent: "5%" },
 		],
 		titleEn: "Black Currant Tea",
 		descriptionEn:
-			"A classic black currant tea — a rich, slightly tart taste with a vivid berry aroma.",
+			"A fragrant, concentrated fruit-and-berry tea with a rich black currant flavor. It has a pleasant berry aroma, a slight tartness, and a balanced sweetness. It brews quickly and tastes great both hot and chilled.",
 		compositionEn: [
-			{ name: "Black currant extract", percent: "15%" },
-			{ name: "Black tea", percent: "5%" },
-			{ name: "Water", percent: "80%" },
+			{ name: "Black currant fresh, flash-frozen", percent: "40%" },
+			{ name: "Natural black currant syrup", percent: "50%" },
+			{ name: "Tea extract", percent: "5%" },
+			{ name: "Natural honey", percent: "5%" },
 		],
 	},
 	{
@@ -601,25 +685,29 @@ export const PRODUCTS__TEA: Product[] = [
 		category: "tea",
 		slug: "berryMix",
 		description:
-			"Мікс лісових ягід — чорниці, ожини та малини — на основі чорного чаю. Багатий ягідний букет в одній чашці.",
+			"Ароматний фруктово-ягідний концентрований чай із насиченим смаком лісових ягід. Має яскравий ягідний аромат, приємну природну кислинку та гармонійний, глибокий смак. Чудово смакує як гарячим, так і охолодженим.",
 		composition: [
 			{
-				name: "Ягідний мікс-екстракт (чорниця, ожина, малина)",
-				percent: "15%",
+				name: "Ожина свіжа, швидкозаморожена",
+				percent: "20%",
 			},
-			{ name: "Чорний чай", percent: "5%" },
-			{ name: "Вода", percent: "80%" },
+			{ name: "Чорниця свіжа, швидкозаморожена", percent: "25%" },
+			{ name: "Журавлинна свіжа , швидкозаморожена", percent: "25%" },
+			{ name: "Полуниця свіжа , швидкозаморожена", percent: "25%" },
+			{ name: "Чайний екстракт", percent: "5%" },
 		],
 		titleEn: "Forest Berry",
 		descriptionEn:
-			"A mix of forest berries — blueberry, blackberry and raspberry — on a black-tea base. A rich berry bouquet in one cup.",
+			"A fragrant, concentrated fruit-and-berry tea with the rich flavor of wild berries. It has a vibrant berry aroma, a pleasant natural tartness, and a harmonious, deep flavor. It tastes great both hot and chilled.",
 		compositionEn: [
 			{
-				name: "Berry mix extract (blueberry, blackberry, raspberry)",
-				percent: "15%",
+				name: "Fresh, flash-frozen blackberries",
+				percent: "20%",
 			},
-			{ name: "Black tea", percent: "5%" },
-			{ name: "Water", percent: "80%" },
+			{ name: "Fresh, flash-frozen raspberries", percent: "25%" },
+			{ name: "Fresh, flash-frozen cranberries", percent: "25%" },
+			{ name: "Fresh, flash-frozen strawberries", percent: "25%" },
+			{ name: "Tea extract", percent: "5%" },
 		],
 	},
 	{
@@ -631,19 +719,17 @@ export const PRODUCTS__TEA: Product[] = [
 		category: "tea",
 		slug: "kizil",
 		description:
-			"Чай з кизилом — яскрава кислинка та своєрідний терпкий смак, характерний для цієї ягоди.",
+			"Ароматний фруктово-ягідний концентрований чай із насиченим смаком кизилу. Має яскравий ягідний аромат, приємну кислинку та гармонійний, насичений смак. Чудово смакує як гарячим, так і охолодженим.",
 		composition: [
-			{ name: "Кизиловий екстракт", percent: "15%" },
-			{ name: "Чорний чай", percent: "5%" },
-			{ name: "Вода", percent: "80%" },
+			{ name: "Сироп кизиловий натуральний ", percent: "95%" },
+			{ name: "Чайний екстракт", percent: "5%" },
 		],
 		titleEn: "Cornelian Cherry Tea",
 		descriptionEn:
-			"Tea with cornelian cherry (dogwood) — a vivid tartness and a distinctive tangy taste characteristic of this berry.",
+			"A fragrant, concentrated fruit-and-berry tea with the rich flavor of cornelian cherry. It has a vibrant berry aroma, a pleasant tartness, and a harmonious, rich flavor. It tastes great both hot and chilled.",
 		compositionEn: [
-			{ name: "Cornelian cherry extract", percent: "15%" },
-			{ name: "Black tea", percent: "5%" },
-			{ name: "Water", percent: "80%" },
+			{ name: "Natural cornelian cherry syrup", percent: "95%" },
+			{ name: "Tea extract", percent: "5%" },
 		],
 	},
 ];
@@ -754,23 +840,17 @@ export const getProductsByCategory = (
 	category: ProductCategory,
 	excludeSlug?: string,
 ): Product[] =>
-	ALL_PRODUCTS.filter(
-		(p) => p.category === category && p.slug !== excludeSlug,
-	);
+	ALL_PRODUCTS.filter((p) => p.category === category && p.slug !== excludeSlug);
 
 /**
  * Короткий тег формата товара для карточек и фильтров каталога.
  * Отдельного поля "формат" в данных нет, поэтому тег выводится из
  * category — это единственный существующий признак группы товара.
  */
-export const getProductFormatTag = (
-	product: Product,
-	lang: string,
-): string => {
+export const getProductFormatTag = (product: Product, lang: string): string => {
 	const isEn = lang === "en";
 	if (product.category === "glass") return isEn ? "100% juice" : "100% сік";
-	if (product.category === "box")
-		return isEn ? "With pulp" : "З м'якоттю";
+	if (product.category === "box") return isEn ? "With pulp" : "З м'якоттю";
 	return isEn ? "Natural tea" : "Натуральний чай";
 };
 

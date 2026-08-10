@@ -1,6 +1,6 @@
 import { Container } from "../../styles/UIStyles";
 import { useTranslation } from "react-i18next";
-import Juice from "../../assets/img/products/JuiceInGlass/apple&grapes.webp";
+import Juice from "../../assets/img/products/HeroImg.png";
 import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

@@ -62,6 +62,10 @@ export const MainFlexBox = styled.div`
 			display: none;
 		}
 	}
+	img {
+		width: 100%;
+		max-width: 360px;
+	}
 `;
 export const LogoContainer = styled.div`
 	display: flex;

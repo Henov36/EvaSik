@@ -1,6 +1,7 @@
 import { styled, keyframes, css } from "styled-components";
 import SecondSectionImg from "../../assets/img/fructs.webp";
 import HeroBg from "../../assets/img/products/JuiceInGlass/g11.webp";
+import AdaptiveHeroBg from "../../assets/img/products/sadAdaptive.webp";
 
 const pulse = keyframes`
   0% {
@@ -32,6 +33,13 @@ export const TopSection = styled.section`
 
 	@media (max-width: 900px) {
 		padding: 16px 0px 10px 0px;
+		background-image:
+			linear-gradient(
+				270deg,
+				rgba(230, 212, 184, 0.35) 21%,
+				rgba(230, 212, 184, 0.81) 83%
+			),
+			url(${AdaptiveHeroBg});
 	}
 `;
 export const ContentBox = styled.div`
@@ -227,8 +235,8 @@ export const HeroImageBlock = styled.div`
 	justify-content: center;
 
 	img {
-		width: 30%;
-		max-width: 260px;
+		/* width: 90%; */
+		max-width: 360px;
 		filter: drop-shadow(0px 20px 30px rgba(0, 0, 0, 0.2));
 		/* transform-origin: 50% 85%; */
 		animation: heroBottleFloat 6s ease-in-out infinite;
@@ -237,7 +245,7 @@ export const HeroImageBlock = styled.div`
 	@media (max-width: 900px) {
 		width: 100%;
 		img {
-			width: 100px;
+			width: 200px;
 			margin-top: 50px;
 		}
 	}
@@ -250,13 +258,13 @@ export const HeroImageBlock = styled.div`
 
 	@keyframes heroBottleFloat {
 		0% {
-			transform: rotate(15deg) scale(1.05);
+			transform: scale(1.3) rotate(7deg);
 		}
 		50% {
-			transform: rotate(0deg) scale(1);
+			transform: scale(1.1) rotate(0deg);
 		}
 		100% {
-			transform: rotate(15deg) scale(1.05);
+			transform: scale(1.3) rotate(7deg);
 		}
 	}
 `;

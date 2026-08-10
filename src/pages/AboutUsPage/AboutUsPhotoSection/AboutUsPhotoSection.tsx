@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { Container } from "../../../styles/UIStyles";
 import football1 from "../../../assets/img/AboutUsSection/football/football.webp";
-import football2 from "../../../assets/img/AboutUsSection/football/1.webp";
-import football3 from "../../../assets/img/AboutUsSection/football/2.webp";
+import football2 from "../../../assets/img/sponsors/TirasFootball.webp";
+import football3 from "../../../assets/img/AboutUsSection/football/tiras2.jfif";
 import { AboutUsContainer, AboutUsSectionStyles } from "./AboutUsPhotoSection";
 // import { QLine } from "../../../components/QLine/QLine";
 import { PartnersSection } from "../../../components/PartnersSection/PartnersSection";

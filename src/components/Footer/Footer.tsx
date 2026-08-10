@@ -16,8 +16,8 @@ import instLogo from "../../assets/instagram.svg";
 import faceLogo from "../../assets/facebook.svg";
 import { PRODUCTS__CATEGORIES } from "../../data/products";
 
-const PHONE_NUMBER = "+380 68 666 77 71";
-const PHONE_HREF = "tel:+380686667771";
+const PHONE_NUMBER = "+380 68 860 55 55";
+const PHONE_HREF = "tel:+380688605555";
 
 export const Footer = () => {
 	const { t } = useTranslation();
@@ -54,7 +54,9 @@ export const Footer = () => {
 						<FooterLinkList>
 							{PRODUCTS__CATEGORIES.map((category) => (
 								<li key={category.link}>
-									<Link to={category.link}>{t(`products.${category.key}.categoryTitle`)}</Link>
+									<Link to={category.link}>
+										{t(`products.${category.key}.categoryTitle`)}
+									</Link>
 								</li>
 							))}
 						</FooterLinkList>
@@ -68,14 +70,22 @@ export const Footer = () => {
 							</li>
 						</FooterContactList>
 
-						<FooterColumnTitle as="p" style={{ fontSize: 13, marginBottom: 10 }}>
+						<FooterColumnTitle
+							as="p"
+							style={{ fontSize: 13, marginBottom: 10 }}>
 							{t("footer.followUs")}
 						</FooterColumnTitle>
 						<FooterSocials>
-							<a href="#" aria-label="Instagram">
+							<a
+								href="https://www.instagram.com/eva_juice_tea?igsh=MTR1d21hbGJ3bHFpeA%3D%3D&utm_source=qr"
+								aria-label="Instagram"
+								target="_blank">
 								<img src={instLogo} alt="" />
 							</a>
-							<a href="#" aria-label="Facebook">
+							<a
+								href="https://www.facebook.com/share/19dL7y753E/?mibextid=wwXIfr"
+								aria-label="Facebook"
+								target="_blank">
 								<img src={faceLogo} alt="" />
 							</a>
 						</FooterSocials>

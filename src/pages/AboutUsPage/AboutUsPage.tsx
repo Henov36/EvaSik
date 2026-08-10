@@ -9,7 +9,7 @@ import {
 import Logo from "../../assets/img/Logo.svg";
 import ArrowDown from "../../assets/img/arrow-down.svg";
 import Juicy1 from "../../assets/img/products/JuiceInGlass/granat.webp";
-import Juicy2 from "../../assets/img/products/JuiceInGlass/apple&grapes.webp";
+import Juicy2 from "../../assets/img/products/JuiceInGlass/appleGrapes.webp";
 import { AboutUsPhotoSection } from "./AboutUsPhotoSection/AboutUsPhotoSection.tsx";
 
 

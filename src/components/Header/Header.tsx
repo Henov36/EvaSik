@@ -115,17 +115,31 @@ export const Header = () => {
 							</LangToggle>
 
 							<SocialMedia>
-								<a href="#" aria-label="Instagram">
+								<a
+									href="https://www.instagram.com/eva_juice_tea?igsh=MTR1d21hbGJ3bHFpeA%3D%3D&utm_source=qr"
+									aria-label="Instagram"
+									target="_blank">
 									<img src={instLogo} alt="" />
 								</a>
-								<a href="#" aria-label="Facebook">
+								<a
+									href="https://www.facebook.com/share/19dL7y753E/?mibextid=wwXIfr"
+									aria-label="Facebook"
+									target="_blank">
 									<img src={faceLogo} alt="" />
 								</a>
 							</SocialMedia>
 
 							<PhoneButton href={PHONE_HREF} aria-label={t("header.callUs")}>
-								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-									<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" strokeLinecap="round" strokeLinejoin="round" />
+								<svg
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									strokeWidth="2">
+									<path
+										d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+									/>
 								</svg>
 							</PhoneButton>
 
@@ -169,10 +183,7 @@ export const Header = () => {
 
 				<div className="mobile-divider" />
 
-				<LangToggle
-					role="group"
-					aria-label={t("header.langGroup")}
-					style={{ margin: "4px 14px" }}>
+				<LangToggle role="group" aria-label={t("header.langGroup")}>
 					<button
 						type="button"
 						className={locale === "ua" ? "active" : ""}
@@ -188,10 +199,16 @@ export const Header = () => {
 				</LangToggle>
 
 				<div className="mobile-socials">
-					<a href="#" aria-label="Instagram">
+					<a
+						href="https://www.instagram.com/eva_juice_tea?igsh=MTR1d21hbGJ3bHFpeA%3D%3D&utm_source=qr"
+						aria-label="Instagram"
+						target="_blank">
 						<img src={instLogo} alt="" />
 					</a>
-					<a href="#" aria-label="Facebook">
+					<a
+						href="https://www.facebook.com/share/19dL7y753E/?mibextid=wwXIfr"
+						aria-label="Facebook"
+						target="_blank">
 						<img src={faceLogo} alt="" />
 					</a>
 				</div>

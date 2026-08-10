@@ -177,6 +177,7 @@ export const SocialMedia = styled.div`
 	align-items: center;
 	justify-content: center;
 	gap: 14px;
+	
 
 	img {
 		height: 22px;
@@ -223,9 +224,10 @@ export const PhoneButton = styled.a`
 export const LangToggle = styled.div`
 	display: flex;
 	align-items: center;
-	padding: 3px;
+	/* padding: 3px; */
 	border-radius: 999px;
 	background: rgba(255, 255, 255, 0.15);
+	width: fit-content;
 
 	button {
 		border: none;
@@ -317,7 +319,7 @@ export const MobileNavPanel = styled.div<{ $open: boolean }>`
 		display: block;
 		width: 100%;
 		text-align: left;
-		padding: 12px 14px;
+		padding: 12px 0px;
 		border-radius: 14px;
 		color: #f1f1e6;
 		font-size: 16px;
@@ -326,6 +328,7 @@ export const MobileNavPanel = styled.div<{ $open: boolean }>`
 		background: transparent;
 		font-family: inherit;
 		cursor: pointer;
+		width: fit-content;
 
 		&:hover {
 			background: rgba(255, 255, 255, 0.1);
@@ -355,10 +358,13 @@ export const MobileNavPanel = styled.div<{ $open: boolean }>`
 	.mobile-socials {
 		display: flex;
 		gap: 18px;
-		padding: 6px 14px 0;
+		padding: 20px 0px 0px 0px;
 
 		img {
-			height: 22px;
+			height: 32px;
+		}
+		a{
+			padding: 0;
 		}
 	}
 
