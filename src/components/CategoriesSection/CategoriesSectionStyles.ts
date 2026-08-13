@@ -10,6 +10,8 @@ export const CategoriesSectiomStyle = styled.section`
 		align-items: flex-end;
 		gap: 20px;
 		margin-bottom: 30px;
+		position: relative;
+		z-index: 300;
 
 		.eyebrow {
 			font-size: 13px;
@@ -99,6 +101,8 @@ export const SliderCard = styled.div`
 		font-size: 13px;
 		font-weight: 600;
 		transition: all 0.2s ease;
+		position: relative;
+		z-index: 300;
 
 		@media (hover: hover) {
 			&:hover {

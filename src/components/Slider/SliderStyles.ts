@@ -9,6 +9,8 @@ export const SliderControls = styled.div`
 	justify-content: flex-end;
 	gap: 10px;
 	margin-bottom: 18px;
+	position: relative;
+	z-index: 300;
 `;
 
 export const SliderViewport = styled.div`

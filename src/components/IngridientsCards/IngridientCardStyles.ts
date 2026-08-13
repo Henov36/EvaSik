@@ -8,6 +8,7 @@ export const IngridientCardStyles = styled.div`
 	font-weight: 600;
 	letter-spacing: 0.5px;
 	font-size: 18px;
+
 	div {
 		width: fit-content;
 	}
@@ -27,6 +28,7 @@ export const IngridientCardStyles = styled.div`
 			padding: 20px;
 			/* width: 150px; */
 			height: 80px;
+			
 		}
 	}
 

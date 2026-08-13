@@ -6,6 +6,7 @@ export const ProductionStepStyles = styled.div`
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+
 	p {
 		text-align: center;
 		width: 100%;
@@ -26,6 +27,8 @@ export const ProductionStepStyles = styled.div`
 		}
 	}
 	.content__block {
+		position: relative;
+		z-index: 300;
 		div {
 			margin: 20px 0px;
 			display: flex;

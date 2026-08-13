@@ -1,5 +1,5 @@
 import { styled, keyframes, css } from "styled-components";
-import SecondSectionImg from "../../assets/img/fructs.webp";
+import SecondSectionImg from "../../assets/img/mainPhoto.png";
 import HeroBg from "../../assets/img/products/JuiceInGlass/g11.webp";
 import AdaptiveHeroBg from "../../assets/img/products/sadAdaptive.webp";
 
@@ -299,6 +299,12 @@ export const FeaturesStrip = styled.ul`
 			font-size: 12px;
 			opacity: 0.65;
 		}
+		div{
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: space-between;
+		}
 	}
 
 	@media (max-width: 900px) {
@@ -308,6 +314,19 @@ export const FeaturesStrip = styled.ul`
 
 		li {
 			flex: 1 1 45%;
+		}
+	}
+	@media (max-width: 600px) {
+		flex-wrap: wrap;
+		border-radius: 16px;
+		padding: 20px;
+
+		li {
+			height: 73px;
+			div{
+				height: 100%;
+				justify-content: center;
+			}
 		}
 	}
 `;
@@ -350,16 +369,19 @@ export const SecondSection = styled.section`
 	}
 	.content__second-section {
 		margin-right: 50px;
+		
 	}
 	.juice-block {
 		background-image: url(${SecondSectionImg});
-		background-size: contain;
-		background-position-y: bottom;
+		background-size: cover;
+		/* background-position-y: bottom; */
+		background-position: top center;
 		background-repeat: no-repeat;
 		align-self: stretch;
 		img {
 			height: 400px;
 		}
+		border-radius: 30px;
 	}
 
 	@media (max-width: 900px) {

@@ -40,7 +40,6 @@ export const SellProductSection = ({
 			(context) => {
 				const { isMobile } = context.conditions as { isMobile: boolean };
 
-				// 1. Плавный въезд секции (работает на всех размерах экрана)
 				const introTween = gsap.fromTo(
 					container,
 					{
@@ -61,10 +60,6 @@ export const SellProductSection = ({
 					},
 				);
 
-				// 2. Внутренний пин-скролл — только на достаточно широких экранах.
-				// На мобильном/планшете эффект "прокрутки внутри пина" плохо
-				// работает вместе со смус-скроллом и часто выглядит рвано,
-				// поэтому там контент просто идёт обычным потоком (см. CSS).
 				let scrollAnimation: gsap.core.Tween | null = null;
 				if (!isMobile) {
 					scrollAnimation = gsap.to(mover, {

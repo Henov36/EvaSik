@@ -10,14 +10,6 @@ import {
 import { Slider, SliderItem } from "../Slider/Slider";
 import { CategoriesSectiomStyle, SliderCard } from "./CategoriesSectionStyles";
 
-/**
- * Единая карусель по ВСЕМ товарам (соки, бокс, чай) — заменяет прежние
- * 3 карточки категорий. Используется и на MainPage ("Наша продукція"),
- * и на ProductPage ("Оберіть свій смак та формат"), поэтому изменение
- * тут применяется сразу на всех страницах, где стоит этот компонент.
- * Карусель — общий Slider (scroll-snap), сама решает сколько карточек
- * влезает на экран, поэтому адаптив не ломается на мобильных.
- */
 export const CategoriesSection = () => {
 	const { t, i18n } = useTranslation();
 

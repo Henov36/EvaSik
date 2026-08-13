@@ -30,8 +30,8 @@ import waterIcon from "../../assets/img/water.svg";
 import familyIcon from "../../assets/img/Family.svg";
 import shieldIcon from "../../assets/img/shield.svg";
 import EvaLogo from "../../assets/img/Logo.svg";
-import Juice2 from "../../assets/img/products/JuiceInGlass/cherry.webp";
-import Juice3 from "../../assets/img/products/JuiceInGlass/apple&dushes.webp";
+// import Juice2 from "../../assets/img/products/JuiceInGlass/cherry.webp";
+// import Juice3 from "../../assets/img/products/JuiceInGlass/apple&dushes.webp";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -168,8 +168,8 @@ export const MainPage = () => {
 							</div>
 							<div className="juice-block">
 								<JuiceImgBlock $reverse={false}>
-									<img src={Juice2} alt="Apple & Grapes Juice" />
-									<img src={Juice3} alt="Apple & Grapes Juice" />
+									{/* <img src={Juice2} alt="Apple & Grapes Juice" /> */}
+									{/* <img src={Juice3} alt="Apple & Grapes Juice" /> */}
 								</JuiceImgBlock>
 							</div>
 						</ContentBox>

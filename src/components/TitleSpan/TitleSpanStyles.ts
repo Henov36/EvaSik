@@ -8,10 +8,11 @@ export const TitleSpanStyle = styled.div`
 	h1 {
 		width: fit-content;
 		margin: 0 auto;
+		line-height: 52px;
 	}
 	.under-title {
 		width: fit-content;
-		margin: 20px 0px;
+		margin: 40px 0px;
 		display: flex;
 		justify-content: center;
 		align-items: center;

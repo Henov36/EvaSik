@@ -8,6 +8,7 @@ export const PruductsSoloPageSection = styled.section`
 	/* padding: 0; */
 	/* margin-top: -150px; */
 	/* height: 100vh; */
+	padding-top: 0px;
 
 	padding-bottom: 100px;
 	background-color: #e3d2ba;
@@ -31,7 +32,7 @@ export const PruductsSoloContainer = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 50px 0px;
+	padding: 15px 0px;
 	position: relative;
 	z-index: 100;
 
@@ -104,7 +105,8 @@ export const ProductImgBlock = styled.div`
 	justify-content: center;
 	/* transform: translateX(-20%); */
 	img {
-		width: 100%;
+		height: calc(100vh - 6vw);
+		padding-top: 100px;
 		/* height: 500px; */
 	}
 
@@ -113,18 +115,22 @@ export const ProductImgBlock = styled.div`
 		transform: none;
 
 		img {
-			padding-top: 50px;
+			padding-top: 100px;
 			max-width: auto;
-			height: 300px;
+			height: 500px;
 		}
 	}
 `;
 
 export const ProductInfoBlock = styled.div`
 	width: 50%;
-
+	padding-top: 100px;
 	@media (max-width: 900px) {
 		width: 100%;
+		padding-top: 40px;
+		h1{
+			font-size: 42px;
+		}
 	}
 `;
 

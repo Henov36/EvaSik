@@ -3,15 +3,23 @@ import { Container } from "../../../styles/UIStyles";
 import football1 from "../../../assets/img/AboutUsSection/football/football.webp";
 import football2 from "../../../assets/img/sponsors/TirasFootball.webp";
 import football3 from "../../../assets/img/AboutUsSection/football/tiras2.jfif";
-import { AboutUsContainer, AboutUsSectionStyles } from "./AboutUsPhotoSection";
+import {
+	AboutUsContainer,
+	AboutUsSectionStyles,
+	WarrioHelpSection,
+} from "./AboutUsPhotoSection";
 // import { QLine } from "../../../components/QLine/QLine";
 import { PartnersSection } from "../../../components/PartnersSection/PartnersSection";
 import { TitleSpan } from "../../../components/TitleSpan/TitleSpan";
 import { Reveal } from "../../../components/Reveal/Reveal";
-import photo1 from "../../../assets/img/AboutUsSection/21.webp";
-import photo2 from "../../../assets/img/AboutUsSection/3.webp";
-import photo3 from "../../../assets/img/AboutUsSection/4.webp";
+// import photo1 from "../../../assets/img/AboutUsSection/21.webp";
+import photo2 from "../../../assets/img/AboutUsSection/aboutUs.png";
+import photo3 from "../../../assets/img/AboutUsSection/AboutUs2.png";
 import photo4 from "../../../assets/img/AboutUsSection/5.svg";
+import photo5 from "../../../assets/img/AboutUsSection/aboutUs1.png";
+import photo6 from "../../../assets/img/AboutUsSection/church.png";
+import photo7 from "../../../assets/img/AboutUsSection/AboutUs4.png";
+import { CategoriesSection } from "../../../components/CategoriesSection/CategoriesSection";
 
 /**
  * Фото для перших чотирьох блоків — легкі (стиснуті) зображення з
@@ -31,7 +39,7 @@ export const AboutUsPhotoSection = () => {
 				<Container>
 					<AboutUsContainer $isReverse={false}>
 						<Reveal direction="left" className="logo__block">
-							<img src={photo1} alt="" loading="lazy" />
+							<img src={photo3} alt="" loading="lazy" />
 						</Reveal>
 						<Reveal direction="right" className="info__block">
 							<TitleSpan title={t("aboutUs.historyTitle")}></TitleSpan>
@@ -49,7 +57,7 @@ export const AboutUsPhotoSection = () => {
 					</AboutUsContainer>
 					<AboutUsContainer $isReverse={false}>
 						<Reveal direction="left" className="logo__block">
-							<img src={photo3} alt="" loading="lazy" />
+							<img src={photo5} alt="" loading="lazy" />
 						</Reveal>
 						<Reveal direction="right" className="info__block">
 							<TitleSpan title={t("aboutUs.trustTitle")}></TitleSpan>
@@ -71,11 +79,7 @@ export const AboutUsPhotoSection = () => {
 						</Reveal>
 					</AboutUsContainer>
 				</Container>
-				{/* <Reveal direction="up">
-					<QLine background="linear-gradient(179deg,rgba(230, 212, 184, 1) 18%, rgba(24, 128, 24, 1) 91%)" />
-				</Reveal> */}
-
-				<PartnersSection />
+				<CategoriesSection />
 			</AboutUsSectionStyles>
 			<AboutUsSectionStyles $isReverse={false}>
 				<Container>
@@ -97,7 +101,7 @@ export const AboutUsPhotoSection = () => {
 							<p>{t("aboutUs.tirasText")}</p>
 						</Reveal>
 					</AboutUsContainer>
-					<AboutUsContainer $isReverse={false} style={{ paddingBottom: "200px" }}>
+					<AboutUsContainer $isReverse={false}>
 						<Reveal direction="left" className="logo__block">
 							<img src={football3} alt="" />
 						</Reveal>
@@ -106,6 +110,46 @@ export const AboutUsPhotoSection = () => {
 							<p>{t("aboutUs.socialText")}</p>
 						</Reveal>
 					</AboutUsContainer>
+				</Container>
+				<PartnersSection />
+			</AboutUsSectionStyles>
+			<AboutUsSectionStyles id="about-history" $isReverse={true}>
+				<Container>
+					<AboutUsContainer $isReverse={false}>
+						<Reveal direction="left" className="logo__block">
+							<img src={photo6} alt="" loading="lazy" />
+						</Reveal>
+						<Reveal direction="left" className="info__block">
+							<TitleSpan title={t("aboutUs.сhurchTitle")}></TitleSpan>
+							<p>{t("aboutUs.сhurchText")}</p>
+						</Reveal>
+					</AboutUsContainer>
+					<AboutUsContainer $isReverse={true}>
+						<Reveal direction="right" className="logo__block">
+							<img src={photo7} alt="" loading="lazy" />
+						</Reveal>
+						<Reveal direction="left" className="info__block">
+							<TitleSpan title={t("aboutUs.сhurchTitle1")}></TitleSpan>
+							<p>{t("aboutUs.сhurchText1")}</p>
+						</Reveal>
+					</AboutUsContainer>
+
+					<WarrioHelpSection style={{ paddingBottom: "100px" }}>
+						<Reveal direction="right" className="info__block">
+							<TitleSpan title={t("aboutUs.volonterTitle")}></TitleSpan>
+							<p>{t("aboutUs.volonterText")}</p>
+						</Reveal>
+						<Reveal direction="right" className="info__block">
+							<p>{t("aboutUs.volonterText1")}</p>
+						</Reveal>
+
+						<Reveal direction="right" className="info__block">
+							<p>{t("aboutUs.volonterText2")}</p>
+						</Reveal>
+						<Reveal direction="right" className="info__block">
+							<p>{t("aboutUs.volonterText3")}</p>
+						</Reveal>
+					</WarrioHelpSection>
 				</Container>
 			</AboutUsSectionStyles>
 		</>

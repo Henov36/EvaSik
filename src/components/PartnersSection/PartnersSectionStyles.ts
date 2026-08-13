@@ -6,6 +6,7 @@ export const StatsWrap = styled.ul`
 	justify-content: space-between;
 	gap: 32px;
 	padding: 70px 0px 90px 0px;
+	
 
 	li {
 		display: flex;
@@ -51,6 +52,8 @@ export const StatsWrap = styled.ul`
 `;
 
 export const PartnersBlock = styled.div`
+	position: relative;
+	z-index: 300;
 	padding: 20px 0px 100px 0px;
 
 	@media (max-width: 900px) {

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 interface AboutUsProps {
 	$isReverse: boolean;
+	$isPaddingBot?: boolean;
 }
 
 export const AboutUsSectionStyles = styled.section<AboutUsProps>`
@@ -14,6 +15,7 @@ export const AboutUsContainer = styled.div<AboutUsProps>`
 	align-items: center;
 	justify-content: space-between;
 	flex-direction: ${(props) => (props.$isReverse ? "row-reverse" : "row")};
+	padding-bottom: ${(props) => (props.$isPaddingBot ? "200px" : "0px")};
 
 	.logo__block,
 	.info__block {
@@ -39,6 +41,8 @@ export const AboutUsContainer = styled.div<AboutUsProps>`
 	}
 
 	.info__block {
+		position: relative;
+		z-index: 300;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -54,6 +58,8 @@ export const AboutUsContainer = styled.div<AboutUsProps>`
 		}
 		p {
 			font-size: 20px;
+			position: relative;
+			z-index: 100;
 		}
 	}
 
@@ -75,6 +81,20 @@ export const AboutUsContainer = styled.div<AboutUsProps>`
 			p {
 				font-size: 16px;
 			}
+		}
+	}
+`;
+
+export const WarrioHelpSection = styled.div`
+	position: relative;
+	z-index: 100;
+	padding-top: 100px;
+	div {
+		margin: 20px 0px;
+		width: 100%;
+		h1 {
+			text-align: center;
+			width: 100%;
 		}
 	}
 `;

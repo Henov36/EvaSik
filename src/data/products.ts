@@ -20,7 +20,7 @@ import BoxJuiceMulty from "../assets/img/products/JuiceINBox/multyfruct.webp";
 import TeaCherry from "../assets/img/products/Tea/cherry.webp";
 import TeaGranat from "../assets/img/products/Tea/granat.webp";
 import TeaChornika from "../assets/img/products/Tea/chornika.webp";
-import TeaSmorodinaChernika from "../assets/img/products/Tea/smorodinaChernika.webp";
+import TeaSmorodinaChernika from "../assets/img/products/Tea/smorodina.webp";
 import TeaJuravlina from "../assets/img/products/Tea/juravlina.webp";
 import TeaMalina from "../assets/img/products/Tea/malina.webp";
 import TeaOblipiha from "../assets/img/products/Tea/oblipiha.webp";
