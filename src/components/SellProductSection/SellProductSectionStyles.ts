@@ -10,12 +10,12 @@ export const ScrollWrapper = styled.div`
 	height: auto;
 `;
 export const SellProductSectionStyle = styled.section<BackgroundLayerProps>`
-	position: relative; /* Меняем с absolute на relative, чтобы быть базой */
+	position: relative; 
 	width: 100%;
-	height: 100vh; /* Фиксируем высоту пина ровно на экран */
+	height: 100vh; 
 	background: ${(props) => props.$bg || "var(--blue-bg)"};
-	transition: background 0.3s ease; /* Анимируем только фон, all может тормозить при GSAP */
-	overflow: hidden; /* Оставляем для скрытия вылетающего контента */
+	transition: background 0.3s ease;
+	overflow: hidden; 
 	z-index: 1;
 	h1 {
 		font-size: 70px;
@@ -25,12 +25,10 @@ export const SellProductSectionStyle = styled.section<BackgroundLayerProps>`
 		font-style: normal;
 	}
 
-	/* На мобільному/планшеті GSAP не піне цю секцію (див. SellProductSection.tsx) —
-	   тож висота й overflow мають відпустити контент у звичайний потік, інакше
-	   все, що не влізло в 100vh, було б обрізано і недоступне для перегляду. */
 	@media (max-width: 900px) {
 		height: auto;
 		overflow: visible;
+		padding: 0px;
 	}
 
 	@media (max-width: 900px) {

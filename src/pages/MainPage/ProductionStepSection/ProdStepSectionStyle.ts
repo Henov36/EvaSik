@@ -9,6 +9,8 @@ export const ProdSectionStyles = styled.section`
 		justify-content: center;
 		gap: 20px;
 		width: 100%;
-		
+	}
+	@media (max-width: 900px) {
+		padding: 50px 0px 20px 0px;
 	}
 `;
