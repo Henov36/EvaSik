@@ -1,0 +1,256 @@
+{
+ "nav": {
+  "main": "Main",
+  "aboutUs": "About Us",
+  "products": "Products",
+  "allProducts": "All products",
+  "contacts": "Contacts"
+ },
+ "header": {
+  "callUs": "Call us",
+  "langGroup": "Site language",
+  "menu": "Menu"
+ },
+ "footer": {
+  "tagline": "Natural juices and teas, carefully made.",
+  "navigation": "Navigation",
+  "catalog": "Catalog",
+  "contactsTitle": "Contacts",
+  "followUs": "Follow us",
+  "rights": "All rights reserved"
+ },
+ "common": {
+  "pageInProgress": "Page under construction"
+ },
+ "main": {
+  "hero": "Producer of natural, reconstituted, pasteurized juices",
+  "rawMaterialsTitle": "Raw materials",
+  "rawMaterialsCard1": "To make our juices we use our own fruit and berry concentrates, produced from carefully selected raw materials using modern processing and quality-control technologies",
+  "rawMaterialsCard2": "Our own concentrate production lets us control every stage - from sourcing raw materials to the finished product - ensuring a consistent taste, natural aroma and high juice quality",
+  "rawMaterialsCard3": "Production uses natural juice bases and prepared water, while gentle pasteurization helps preserve the natural properties of fruits and berries.",
+  "eyebrow": "The taste of Quality",
+  "heroTitle": "Natural flavors for every day",
+  "heroText": "Juices, fruit and berry teas, and fruit smoothies—the vibrant flavor of carefully selected fruits and berries",
+  "ctaProducts": "View products",
+  "ctaVideo": "Watch how it's made",
+  "feature1Title": "Natural composition",
+  "feature1Text": "No artificial colors",
+  "feature2Title": "Select fruit",
+  "feature2Text": "High-quality raw materials",
+  "feature3Title": "Modern production",
+  "feature3Text": "Quality control at every stage",
+  "feature4Title": "Made with care",
+  "feature4Text": "A healthy drink for the whole family",
+  "productsEyebrow": "Our products",
+  "productsTitle": "Enjoy your favourite juices",
+  "productsViewAll": "View all products"
+ },
+ "productionSteps": {
+  "title": "Stages of making EVA juices",
+    "titleStep1": "Juice reconstitution",
+  "step1": "Production uses quality fruit and berry concentrates and prepared water. Juice reconstitution",
+    "titleStep2": "Filtering and preparation",
+  "step2": "The concentrate is blended with water in the right proportions to restore the juice's natural taste and texture. Filtering and preparation",
+    "titleStep3": "Clarification and quality control",
+  "step3": "The juice is cleared and quality-checked to achieve a stable consistency and clarity. Pasteurization",
+    "titleStep4": "Pasteurization",
+  "step4": "The product undergoes gentle heat treatment, which helps preserve its taste, aroma and safety. Filling and packaging",
+    "titleStep5": "Filling and packaging",
+  "step5": "The finished juice or tea is filled into clean containers under sterile conditions, after which the bottles and packs are sealed airtight. Filling and packaging",
+    "titleStep6": "Quality inspection",
+  "step6": "Every batch is checked against quality standards before being shipped to customers. Storage and delivery",
+    "titleStep7": "Storage and delivery",
+  "step7": "Finished products are stored under proper conditions and delivered to partners and customers"
+ },
+ "qline": {
+  "title": "EVA juice is all about...",
+  "item1Line1": "Natural",
+  "item1Line2": "ingredients",
+  "item2Line1": "Quality",
+  "item2Line2": "control",
+  "item3Line1": "Modern",
+  "item3Line2": "technology",
+  "item4Line1": "Product",
+  "item4Line2": "safety"
+ },
+ "sponsors": {
+  "title": "Our partners"
+ },
+ "products": {
+  "hero": "Plenty of flavours for a boost of energy and a good mood",
+  "needOtherFormat": "Need a different format?",
+  "compositionTitle": "Composition:",
+  "addToCart": "Add to cart",
+  "added": "Added ✓",
+  "decrease": "Decrease quantity",
+  "increase": "Increase quantity",
+  "chooseTasteTitle": "Choose your taste and format",
+  "chooseTasteSubtitle": "Freshness and energy in a convenient format",
+  "glass": {
+   "categoryTitle": "Juice in a glass bottle",
+   "categoryLinkTitle": "Juice in a glass bottle",
+   "pageTitle": "Juice in a glass bottle",
+   "subtitleLine1": "Always convenient, always tasty",
+   "subtitleLine2": "Always natural"
+  },
+  "box": {
+   "categoryTitle": "Juice in a 3L family box",
+   "categoryLinkTitle": "Juice in a 3L carton box",
+   "pageTitle": "Juice in a carton box",
+   "subtitleLine1": "For the whole family, friends",
+   "subtitleLine2": "And more"
+  },
+  "tea": {
+   "categoryTitle": "Tea",
+   "categoryLinkTitle": "Natural tea",
+   "pageTitle": "Natural tea",
+   "subtitleLine1": "Need a break?",
+   "subtitleLine2": "Warm tea will help"
+  },
+  "detail": {
+   "feature1Title": "Natural composition",
+   "feature1Text": "Only juice and pulp of ripe fruit",
+   "feature2Title": "For the whole family",
+   "feature2Text": "A taste loved by adults and kids alike",
+   "feature3Title": "Convenient format",
+   "feature3Text": "Made for everyday use, no hassle",
+   "feature4Title": "Quality control",
+   "feature4Text": "Modern production with strict control",
+   "otherFlavors": "Other flavours",
+   "allFlavors": "All flavours",
+   "moreDetails": "See details",
+   "priceLabel": "Price:",
+   "priceValue": "{{price}} UAH",
+   "sticks": "sticks"
+  },
+  "filters": {
+   "all": "All",
+   "sugarFree": "No added sugar",
+   "withPulp": "With pulp",
+   "pureJuice": "100% juice",
+   "restored": "Reconstituted",
+   "sortLabel": "Sort:",
+   "sortPopular": "Popular",
+   "sortAZ": "A-Z",
+   "sortZA": "Z-A",
+   "formats": "All formats"
+  },
+  "flavorFamily": {
+   "all": "All",
+   "apple": "Apple",
+   "grape": "Grape",
+   "berry": "Berry",
+   "multifruit": "Multifruit",
+   "vegetable": "Vegetable",
+   "herbal": "Herbal",
+   "other": "Other"
+  },
+  "catalog": {
+   "countLabel": "products",
+   "empty": "No products match this filter yet."
+  }
+ },
+ "cart": {
+  "title": "Cart",
+  "empty": "Your cart is still empty",
+  "itemsInCart": "Items in cart",
+  "totalSum": "Order total",
+  "itemSum": "{{sum}} UAH",
+  "checkout": "Checkout",
+  "remove": "Remove",
+  "decrease": "Decrease quantity",
+  "increase": "Increase quantity",
+  "checkoutTitle": "Checkout",
+  "name": "Name",
+  "namePlaceholder": "Your name",
+  "phone": "Phone",
+  "phonePlaceholder": "+380 XX XXX XX XX",
+  "comment": "Order comment",
+  "commentPlaceholder": "Delivery notes (optional)",
+  "confirm": "Confirm order",
+  "back": "Back to cart",
+  "thankYouTitle": "Thank you for your order!",
+  "thankYouText": "We'll get in touch with you shortly to arrange the delivery details.",
+  "close": "Close",
+  "sending": "Sending...",
+  "sendError": "Couldn't send the order. Please try again or call us."
+ },
+ "aboutUs": {
+  "intro": "EVA 2020 LLC is a Ukrainian producer of juices and fruit drinks made from natural ingredients.",
+  "historyTitle": "The history of EVA juices",
+  "historyText": "For more than five years we've been making quality products for Ukrainian consumers, combining modern production technology, natural ingredients and strict quality control at every stage.",
+  "rawMaterialTitle": "Handpicked raw materials",
+  "rawMaterialText": "Our range includes juices and concentrated teas made from carefully selected raw materials. We strive for every product to have a rich, natural taste, retain the beneficial properties of fruit, and meet the highest safety standards.",
+  "trustTitle": "Consumer trust",
+  "trustText": "Our mission is to produce natural, high-quality drinks that give Ukrainian families goodness, freshness and the true taste of fruit every day. We keep improving production, expanding our range and introducing modern solutions to meet the needs of the Ukrainian market and offer consumers products they can trust.",
+  "allUkraineTitle": "All across Ukraine",
+  "allUkraineText": "Our company works with retail chains, distributors and partners across Ukraine, ensuring steady supply and consistently high product quality.",
+  "footballTitle": "Supporting children's football",
+  "footballText": "EVA 2020 LLC is a general partner of children's football and actively supports the development of young athletes, promoting a healthy lifestyle and sporting values among children.",
+  "tirasTitle": "The \"TIRAS\" team",
+  "tirasText": "The company is a general partner of the Tiras children's football school and the Tiras football center in the city of Horodok. We help create modern conditions for training, talent development and sporting events, so every child has the chance to play football, improve their skills and move confidently toward their sporting goals.",
+  "socialTitle": "Social responsibility",
+  "socialText": "For us, social responsibility means more than making quality products - it's also an investment in Ukraine's future. We believe that supporting children's sport builds a healthy, strong and purposeful generation. EVA 2020 LLC will continue to support initiatives that develop children's football, because today's young players are tomorrow's champions of Ukraine.",
+  "сhurchTitle": "Rebuilding the church in the village of Lepesivka",
+  "сhurchText": "EVA joined the effort to rebuild the church in the village of Lepesivka, supporting a project that matters greatly to the local community. As part of the initiative, the company took part in the restoration work and helped equip the church with everything it needs to function fully.",
+  "сhurchTitle1": "Community development",
+  "сhurchText1": "For EVA, social responsibility means more than supporting individual initiatives - it's a real contribution to community development, to preserving spiritual and cultural values, and to creating places that matter to people. We believe that supporting such projects helps bring communities together, preserve traditions, and build a solid foundation for the future.",
+  "volonterTitle": "Supporting those who defend Ukraine",
+  "volonterText": "EVA consistently supports Ukrainian servicemen and the Armed Forces of Ukraine, taking part in charitable initiatives and helping meet the pressing needs of our defenders.",
+  "volonterTitle1": "Vehicles for the military",
+  "volonterText1": "One important area of support is purchasing and handing over vehicles to military units. Transport is critically important at the front: it's needed for the rapid movement of servicemen, carrying out combat tasks, transporting necessary equipment, and ensuring the mobility of units. That's why EVA has repeatedly helped supply the military with the vehicles they need.",
+  "volonterTitle2": "Other needs of the military",
+  "volonterText2": "Besides handing over vehicles, the company supports fundraisers and charitable projects, helps cover the military's essential needs, and takes part in initiatives supporting the Armed Forces of Ukraine. For EVA, helping Ukrainian defenders isn't a one-off gesture but an ongoing focus of our social responsibility. We understand how important it is today for business and society to join forces for a common goal.",
+  "volonterTitle3": "Everything for victory",
+  "volonterText3": "We continue to support our military, to help wherever it's needed most, and to contribute to strengthening Ukraine's defense capability. Together, we stand behind those who defend our country every day. Together - for Ukraine and for Victory.",
+  "stats": {
+   "regionsValue": "24+",
+   "regionsLabel": "Regions covered",
+   "pointsValue": "6000+",
+   "pointsLabel": "Points of sale",
+   "partnersValue": "100+",
+   "partnersLabel": "Partners and distributors",
+   "qualityValue": "100%",
+   "qualityLabel": "High quality at every stage"
+  },
+  "partners": {
+   "eyebrow": "Our partners",
+   "title": "Reliable partners — a strong country",
+   "text": "We're grateful to our partners for their trust and cooperation. Together we bring Ukrainians quality natural juices.",
+   "cta": "Become a partner",
+   "prev": "Previous partners",
+   "next": "Next partners"
+  },
+  "concentrates": {
+   "paragraph1": "Our range includes juices, concentrated fruit-and-berry teas and other drinks made from carefully selected raw materials. We pay special attention to the quality of our fruits and berries to preserve their natural taste, aroma and properties, and to ensure consistently high quality of the finished product.",
+   "paragraph2": "A separate line of our business is producing concentrated fruit and berry juices, which are also made from select raw materials and can be used to make beverages and food products.",
+   "paragraph3": "Learn more about our concentrated juices and full range on our dedicated website.",
+   "cta": "Visit the website"
+  }
+ },
+ "marquee": {
+  "quality": [
+   "100% natural juice",
+   "No preservatives",
+   "Only quality raw materials",
+   "Juice for the whole family",
+   "Made in Ukraine"
+  ],
+  "motivation": [
+   "Enjoy the moment",
+   "Trust the taste",
+   "Stay active",
+   "Don't let thirst win",
+   "Feel the vitamin boost"
+  ]
+ },
+ "contactsPage": {
+  "title": "Contacts",
+  "intro": "We're ready to offer the best cooperation terms and expand your range with natural products. We'd be glad to welcome you among our partners.",
+  "salesLabel": "Sales department",
+  "emailLabel": "Email",
+  "addressLabel": "Our address",
+  "address": "12 Buzka St, Khmelnytskyi",
+  "mapTitle": "EVA on the map"
+ }
+}
