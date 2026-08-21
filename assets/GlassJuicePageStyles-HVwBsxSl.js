@@ -1,4 +1,4 @@
-import{C as e}from"./products-Gl8LtO0w.js";var t=e.section`
+import{s as e}from"./jsx-runtime-D19uldVM.js";var t=e.section`
 	background-image:
 		linear-gradient(
 			270deg,
@@ -9,7 +9,7 @@ import{C as e}from"./products-Gl8LtO0w.js";var t=e.section`
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
-		
+
 `,n=e.section`
 	padding: 0;
 	background: #eee2cf;
@@ -24,7 +24,6 @@ import{C as e}from"./products-Gl8LtO0w.js";var t=e.section`
 	h4 {
 		font-size: 40px;
 	}
-	
 
 	@media (max-width: 900px) {
 		flex-direction: column;
@@ -82,7 +81,6 @@ import{C as e}from"./products-Gl8LtO0w.js";var t=e.section`
 			align-items: center;
 			justify-content: center;
 			font-size: 24px;
-			/* padding-right: 50px; */
 			span {
 				display: flex;
 				align-items: center;
@@ -133,7 +131,6 @@ import{C as e}from"./products-Gl8LtO0w.js";var t=e.section`
 		border-radius: 20px;
 
 		img {
-			/* width: 50%; */
 			height: 236px;
 		}
 		@media (hover: hover) {

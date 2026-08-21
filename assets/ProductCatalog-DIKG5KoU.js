@@ -1,11 +1,11 @@
-import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{A as t,C as n,R as r,_ as i,c as a,l as o,s,u as c,w as l}from"./products-Gl8LtO0w.js";var u=e(r(),1),d=n.div`
+import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{c as t,f as n,s as r,t as i}from"./jsx-runtime-D19uldVM.js";import{c as a,l as o,s,u as c,y as l}from"./products-DuxCjXYv.js";var u=e(n(),1),d=r.div`
 	padding: 0;
-`,f=n.div`
+`,f=r.div`
 	display: flex;
 	flex-wrap: wrap;
 	gap: 10px;
 	padding-bottom: 50px;
-`,p=n.button`
+`,p=r.button`
 	cursor: pointer;
 	padding: 10px 20px;
 	border-radius: 40px;
@@ -26,7 +26,7 @@ import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{A as t,C as n,R as r,_
 		padding: 8px 14px;
 		font-size: 13px;
 	}
-`;n.div`
+`;r.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -49,7 +49,7 @@ import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{A as t,C as n,R as r,_
 		cursor: pointer;
 		font-size: 14px;
 	}
-`;var m=n.div`
+`;var m=r.div`
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	gap: 20px;
@@ -65,7 +65,7 @@ import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{A as t,C as n,R as r,_
 	@media (max-width: 420px) {
 		grid-template-columns: 1fr;
 	}
-`,h=n.div`
+`,h=r.div`
 	position: relative;
 	background: transparent;
 	border: 2px solid var(--accent-color);
@@ -154,9 +154,9 @@ import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{A as t,C as n,R as r,_
 			font-size: 14px;
 		}
 	}
-`,g=n.div`
+`,g=r.div`
 	padding: 60px 0px;
 	text-align: center;
 	font-size: 18px;
 	opacity: 0.7;
-`,_=i(),v=({products:e})=>{let{t:n,i18n:r}=l(),[i,v]=(0,u.useState)(`all`),y=(0,u.useMemo)(()=>{let t=new Set;return e.forEach(e=>s(e).forEach(e=>t.add(e))),Array.from(t)},[e]),b=(0,u.useMemo)(()=>i===`all`?e:e.filter(e=>s(e).includes(i)),[e,i]);return(0,_.jsxs)(d,{children:[(0,_.jsxs)(f,{children:[(0,_.jsx)(p,{type:`button`,$active:i===`all`,onClick:()=>v(`all`),children:n(`products.flavorFamily.all`)}),y.map(e=>(0,_.jsx)(p,{type:`button`,$active:i===e,onClick:()=>v(e),children:n(`products.flavorFamily.${e}`)},e))]}),b.length===0?(0,_.jsx)(g,{children:n(`products.catalog.empty`)}):(0,_.jsx)(m,{children:b.map(e=>{let i=a(e,r.language);return(0,_.jsx)(h,{children:(0,_.jsxs)(t,{to:e.link,children:[(0,_.jsx)(`span`,{className:`tag`,children:o(e,r.language)}),(0,_.jsx)(`div`,{className:`img-wrap`,children:(0,_.jsx)(`img`,{src:e.img,alt:i.title})}),(0,_.jsx)(`h3`,{children:i.title}),(0,_.jsx)(`span`,{className:`size`,children:c(e,r.language)}),(0,_.jsx)(`span`,{className:`details-btn`,children:n(`products.detail.moreDetails`)})]})},e.id)})})]})};export{v as t};
+`,_=i(),v=({products:e})=>{let{t:n,i18n:r}=t(),[i,v]=(0,u.useState)(`all`),y=(0,u.useMemo)(()=>{let t=new Set;return e.forEach(e=>s(e).forEach(e=>t.add(e))),Array.from(t)},[e]),b=(0,u.useMemo)(()=>i===`all`?e:e.filter(e=>s(e).includes(i)),[e,i]);return(0,_.jsxs)(d,{children:[(0,_.jsxs)(f,{children:[(0,_.jsx)(p,{type:`button`,$active:i===`all`,onClick:()=>v(`all`),children:n(`products.flavorFamily.all`)}),y.map(e=>(0,_.jsx)(p,{type:`button`,$active:i===e,onClick:()=>v(e),children:n(`products.flavorFamily.${e}`)},e))]}),b.length===0?(0,_.jsx)(g,{children:n(`products.catalog.empty`)}):(0,_.jsx)(m,{children:b.map(e=>{let t=a(e,r.language);return(0,_.jsx)(h,{children:(0,_.jsxs)(l,{to:e.link,children:[(0,_.jsx)(`span`,{className:`tag`,children:o(e,r.language)}),(0,_.jsx)(`div`,{className:`img-wrap`,children:(0,_.jsx)(`img`,{src:e.img,alt:t.title})}),(0,_.jsx)(`h3`,{children:t.title}),(0,_.jsx)(`span`,{className:`size`,children:c(e,r.language)}),(0,_.jsx)(`span`,{className:`details-btn`,children:n(`products.detail.moreDetails`)})]})},e.id)})})]})};export{v as t};
