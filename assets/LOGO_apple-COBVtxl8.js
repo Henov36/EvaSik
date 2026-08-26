@@ -31,7 +31,7 @@ import{c as e,s as t,t as n}from"./jsx-runtime-D19uldVM.js";var r=n(),i=({messag
 		flex-direction: column;
 		padding-bottom: 40px;
 		gap: 20px;
-		padding-top: 40px;
+		padding-top: 80px;
 
 		div {
 			width: 100%;
