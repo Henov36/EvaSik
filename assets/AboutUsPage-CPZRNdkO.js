@@ -1,4 +1,4 @@
-import{c as e,n as t,s as n,t as r}from"./jsx-runtime-D19uldVM.js";import{g as i,h as a}from"./products-DuxCjXYv.js";import{t as o}from"./Logo-B322fVD0.js";import{n as s,t as c}from"./CategoriesSection-L3uhrLsb.js";import{t as l}from"./TitleSpan-B6ZzKOtg.js";import{t as u}from"./Reveal-Cvrr1Tj_.js";var d=n.section`
+import{c as e,n as t,s as n,t as r}from"./jsx-runtime-D19uldVM.js";import{g as i,h as a}from"./products-DX9TTxyP.js";import{t as o}from"./Logo-B322fVD0.js";import{n as s,t as c}from"./CategoriesSection-Dgetii0t.js";import{t as l}from"./TitleSpan-B6ZzKOtg.js";import{t as u}from"./Reveal-Cvrr1Tj_.js";var d=n.section`
 	margin: 0;
 	padding: 0;
 	height: 100vh;
