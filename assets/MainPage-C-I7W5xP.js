@@ -1,4 +1,4 @@
-import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{c as t,f as n,i as r,n as i,o as a,s as o,t as s}from"./jsx-runtime-D19uldVM.js";import{y as c}from"./products-DX9TTxyP.js";import{n as l,r as u,t as d}from"./src-BE0GBElb.js";import{t as f}from"./Logo-B322fVD0.js";import{n as p,r as m,t as h}from"./CategoriesSection-Dgetii0t.js";import{a as g,i as _}from"./Slider-L8uIokTD.js";import{t as v}from"./TitleSpan-B6ZzKOtg.js";import{t as y}from"./appleSVG-ChBF8fwl.js";var b=e(n(),1),x=`/EvaSik/assets/mainPhoto-C0aVvYfg.webp`,S=`/EvaSik/assets/mainPhoto2-BOMQ-L3E.webp`,C=`/EvaSik/assets/mainPhotoAdaptive-BiKWv72r.png`,w=r`
+import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{c as t,f as n,i as r,n as i,o as a,s as o,t as s}from"./jsx-runtime-D19uldVM.js";import{y as c}from"./products-DX9TTxyP.js";import{n as l,r as u,t as d}from"./src-BE0GBElb.js";import{t as f}from"./Logo-B322fVD0.js";import{n as p,r as m,t as h}from"./CategoriesSection-Dgetii0t.js";import{a as g,i as _}from"./Slider-L8uIokTD.js";import{t as v}from"./TitleSpan-B6ZzKOtg.js";import{t as y}from"./appleSVG-ChBF8fwl.js";var b=e(n(),1),x=`/EvaSik/assets/mainPhoto-C0aVvYfg.webp`,S=`/EvaSik/assets/fon-CUdNd0ha.jpg`,C=`/EvaSik/assets/mainPhotoAdaptive-BiKWv72r.png`,w=r`
   0% {
     transform: scale(1) var(--base-rotate, rotate(0deg));
   }
@@ -12,18 +12,29 @@ import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{c as t,f as n,i as r,n
 	background-image:
 		linear-gradient(
 			105deg,
-			rgba(238, 226, 207, 1) 26%,
-			rgba(87, 199, 133, 0) 62%
+			rgba(238, 226, 207, 1) 35%,
+			rgba(87, 199, 133, 0) 55%
 		),
 		url(${S});
 	background-size: contain;
-	background-position-x: right;
+	background-position-x: 100%;
 	background-repeat: no-repeat;
 	overflow: hidden;
 	position: relative;
 	padding: 100px 0px 20px 0px;
 	/* height: 100vh; */
 
+	@media (max-width: 1440px) {
+		background-position-x: 140%;
+	}
+	@media (max-width: 1200px) {
+		background-size: cover;
+		background-position-x: -50%;
+	}
+	@media (max-width: 1070px) {
+		background-size: cover;
+		background-position-x: 20%;
+	}
 	@media (max-width: 900px) {
 		height: auto;
 		padding: 16px 0px 10px 0px;
@@ -34,7 +45,7 @@ import{n as e}from"./rolldown-runtime-Bh1tDfsg.js";import{c as t,f as n,i as r,n
 				rgba(230, 212, 184, 0.81) 83%
 			),
 			url(${C});
-			background-size: cover;
+		background-size: cover;
 	}
 	@media (max-height: 809px) {
 		height: auto;
